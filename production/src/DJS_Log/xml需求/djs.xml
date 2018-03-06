@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE doc SYSTEM "djnml-1.0b.dtd">
+<doc msize="000002737" md5="f045b08051f1f669e0c01fdd1e3efc07" sysId="sbknwsarchp01" destination="AW" distId="    " transmission-date="                " >
+<djnml publisher="DJN" docdate="20150313" product="DN" seq="21" xml:lang="en-us" >
+<head>
+<copyright year="2015" holder="Dow Jones &amp; Company, Inc." ></copyright>
+<docdata>
+<djn>
+<djn-newswires news-source="DJDN" origin="DJ" service-id="CO" >
+<djn-press-cutout/>
+<djn-urgency>0</djn-urgency>
+<djn-mdata brand="DJ" temp-perm="P" retention="N" hot="N" original-source="FW" accession-number="20150313000021" page-citation="" display-date="20150313T040546.077Z" >
+<djn-coding>
+<djn-industry>
+<c>I/AUDUS</c>
+</djn-industry>
+<djn-page>
+<c>1012</c>
+<c>1054</c>
+<c>1085</c>
+<c>22766</c>
+<c>22767</c>
+<c>5014</c>
+<c>55115</c>
+<c>75112</c>
+<c>75137</c>
+</djn-page>
+<djn-subject>
+<c>N/AER</c>
+<c>N/BKG</c>
+<c>N/CMDI</c>
+<c>N/CMR</c>
+<c>N/DJAE</c>
+<c>N/DJAN</c>
+<c>N/DJG</c>
+<c>N/DJGP</c>
+<c>N/DJI</c>
+<c>N/DJMB</c>
+<c>N/DJMS</c>
+<c>N/DJN</c>
+<c>N/DN</c>
+<c>N/EWR</c>
+<c>N/FNVW</c>
+<c>N/FXW</c>
+<c>N/MADN</c>
+<c>N/OSOV</c>
+<c>N/WED</c>
+<c>N/WER</c>
+<c>N/ALMT</c>
+<c>N/ANL</c>
+<c>N/ASMT</c>
+<c>N/AUMT</c>
+<c>N/DJFN</c>
+<c>N/DJMT</c>
+<c>N/DJWI</c>
+<c>N/ENTR</c>
+<c>N/FRX</c>
+<c>N/FXMT</c>
+<c>N/FXTR</c>
+<c>N/GENI</c>
+<c>N/IEI</c>
+<c>N/MFO</c>
+<c>N/MKT</c>
+<c>N/MSM</c>
+<c>N/SMC</c>
+<c>N/STK</c>
+<c>N/SUM</c>
+</djn-subject>
+<djn-market>
+<c>M/AUD</c>
+<c>M/NND</c>
+<c>M/TPX</c>
+<c>M/USD</c>
+</djn-market>
+<djn-product>
+<c>P/FXTR</c>
+<c>P/AEQI</c>
+<c>P/AFXB</c>
+<c>P/AFXI</c>
+<c>P/AFXP</c>
+<c>P/EQE</c>
+<c>P/FNVW</c>
+<c>P/FXEQ</c>
+<c>P/MAAD</c>
+<c>P/NIP</c>
+<c>P/PSH</c>
+<c>P/RCC</c>
+<c>P/WMMI</c>
+</djn-product>
+<djn-geo>
+<c>R/ASA</c>
+<c>R/FE</c>
+<c>R/PRM</c>
+</djn-geo>
+</djn-coding>
+</djn-mdata>
+</djn-newswires>
+</djn>
+</docdata>
+</head>
+<body>
+<headline brand-display="DJ" >
+<![CDATA[ Hong Kong Census & Statistics Department - Retail Sales ]]>
+</headline>
+<text>
+<Country>
+	<![CDATA[ HK ]]>
+</Country>
+<Event>	
+<![CDATA[ Hong Kong Census & Statistics Department - Retail Sales ]]>
+</Event>
+<Prev>
+	<![CDATA[ -13.9% ]]>
+</Prev>
+<Exp>
+ <![CDATA[ +5.4% ]]>
+</Exp>
+<Act>
+<![CDATA[ +18.2% ]]>
+</Act>
+</text>
+</body>
+</djnml>
+</doc>

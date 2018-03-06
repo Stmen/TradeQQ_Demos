@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN008657</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 亚马逊称监管机构对其送货无人机的测试批准已过时&gt;AMZN]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>02:18</StoryTime>
+<codes codetype="country">R/IL,R/NME,R/PRM,R/US,R/USC,R/USW,R/WA</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TICKER,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJN,N/DJPT,N/DJQA,N/DN,N/EWR,N/FXW,N/MADN,N/WED,N/WER,N/WSJC,N/CNW,N/DJPN,N/DJWI,N/ENTR,N/FCTV,N/GEN,N/HIY,N/PLT,N/TSY,N/WEI,M/CSL,M/CYC,M/IDU,M/NND,M/RTWS,P/ABO,P/AEQI,P/AFXI,P/EWR,P/MAAD,P/MAST,P/METH,P/NAE,P/PSH,P/RCC,P/SGN,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR</codes>
+<codes codetype="industry">I/ARO,I/ASP,I/IDD,I/RTB,I/RTS,I/TRQ,I/XDJGI,I/XDJI,I/XDJLC,I/XFFX,I/XGDW,I/XIGT,I/XNQ1,I/XNYA,I/XRTT,I/XRUS,I/XSLI,I/XSP1,I/XSP5</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">AMZN,BA,US0231351067,US0970231058</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+亚马逊公司(Amazon.com Inc. ,AMZN)周二表示，上周收到的监管部门有关批准其在美国境内测试无人送货机的文件在抵达时已过时，因监管部门批准的是亚马逊已不再测试的无人机型。<BR><BR>当美国联邦航空管理局(Federal Aviation Administration，简称∶FAA)还在考虑亚马逊的测试申请时，该公司已经开发出了新的无人机型，因此FAA上周批准的无人机型已经过时。亚马逊全球公共政策副总裁Paul Misener在为周二国会听证会准备的证词中称，该公司已不再测试那种机型，因已开发出更先进的款式，且已在国外展开测试。<BR><BR>希望用无人机迅速运送小型包裹的亚马逊总共向监管部门申请了两种测试其飞机的许可证。周四，FAA授予亚马逊具有更多限制的许可证，即试验型适航性证书，这与波音公司(Boeing Co. ,BA)测试新款机型所需获得的批准文件相同。<BR><BR>Write to Jack Nicas at jack.nicas@wsj.c<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

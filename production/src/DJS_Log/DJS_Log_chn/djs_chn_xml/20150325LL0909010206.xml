@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324LL006580a2</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[*DJ 菲律宾1月电子产品进口额为16.5亿美元，较上年同期增长28.3%]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:58</StoryTime>
+<codes codetype="country">R/FE,R/FEO,R/FXAS,R/PRM,R/RP,R/SSA</codes>
+<codes codetype="subject">L/CH,L/SIMP,P/FLASH,L/CH,L/SIMP,J/CFW,N/DJCH,N/LL,N/CHIN,N/CHNT,N/DJWI,N/GENI,N/IEI,N/NENG,N/TRD,S/ALL,S/PHIM,P/E2H,P/HDL,P/RTRS,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/MMR,M/PHP</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+*DJ 菲律宾1月进口额为51.1亿美元，较上年同期下降14.2%
+
+<BR>-0-<BR>版权所有(c)2013道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

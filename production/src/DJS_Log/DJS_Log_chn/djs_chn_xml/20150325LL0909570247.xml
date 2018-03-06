@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN013439a9</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 澳大利亚央行警告部分银行将面临“行为调整”]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:54</StoryTime>
+<codes codetype="country"></codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TKR,J/CFF,J/TICKER,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJAN,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIV,N/DJMS,N/DJN,N/DJRT,N/DN,N/EWR,N/FNVW,N/FXW,N/WED,N/WER,N/WSJC,N/APIN,N/CBK,N/DJWI,N/EMP,N/FCTV,N/FXTR,N/TSY,N/WAER,M/NND,P/AEQ,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/FNVW,P/RCC,P/RTRS,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+悉尼--澳大利亚的一些银行很快将需要通过“行为调整”来收紧宽松的房贷发放业务，宽松的房贷发放行为正导致澳大利亚房价过热并引发该国经济的不稳定风险。<BR><BR>这是澳大利亚央行周三发出的警告。该行在一份针对金融业稳定性的评估报告中称，房价风险正在加剧。<BR><BR>澳大利亚央行称，住宅和商业地产市场的风险正伴随一些城市房价的快速上涨而不断上升，这种状况导致投资活动高涨，并引发银行间激烈的价格竞争。<BR><BR>澳大利亚央行称，继去年12月推出旨在给楼市投资贷款（目前已占所有贷款比例的近一半）降温的举措后，澳大利亚审慎监管局(Australian Prudential Regulation Authority)目前势必将加强对部分机构的监管。<BR><BR>在近期对贷款操作的调查之后，一些银行可能会引起监管部门的注意。澳大利亚央行表示，这些举措和随後将推出的“行为调整”应有助于在一定程度上确保银行维持审慎的贷款标准。<BR><BR>澳大利亚央行称，房地产市场一旦过热，其影响将波及整个澳大利亚经济。<BR>  <BR>By James Glynn; Write to James Glynn at james.glynn@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

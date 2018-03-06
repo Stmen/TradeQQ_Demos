@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO090046640</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 亚洲每日外汇前瞻：波动范围]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:02</StoryTime>
+<codes codetype="country">R/ASI,R/CH,R/FE,R/FEO,R/FXAS,R/II,R/IO,R/MY,R/NME,R/PRM,R/RP,R/SK,R/SN,R/SSA,R/TH,R/TW,R/US</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,N/BESTASIA,N/CLSNEW,N/BKG,N/CMR,N/DJG,N/DJG7,N/DJI,N/DJIB,N/DJMB,N/DN,N/EWR,N/FXW,N/MADN,N/ADF,N/DJFN,N/DJTA,N/DJWI,N/DRV,N/ENTR,N/FRX,N/FXTR,N/LAL,N/LTI,N/MFO,N/MKT,N/MON,N/POV,N/TAB,N/XSFX,PAG/1136,M/CNY,M/IDR,M/INR,M/KRW,M/MMR,M/MYR,M/PHP,M/SGD,M/THB,M/TPX,M/TWD,M/USD,P/AFXB,P/AFXP,P/MAAD,P/RC,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/USDCN,I/USDIN,I/USDKR,I/USDSG,I/USDTH</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+以下为今日亚洲9种主要汇率的预计波动区间∶<BR><pre><BR>                       窄幅区间       宽幅区间<BR>美元/人民币           6.2000-6.2200    6.1800-6.2262 <BR>美元/新台币           31.170-31.320    31.000-31.460 <BR>美元/韩圆             1,100-1,110      1,097-1,115 <BR>美元/新加坡元         1.3648-1.3700    1.3539-1.3757 <BR>美元/马来西亚林吉特   3.6260-3.6500    3.6000-3.6660 <BR>美元/泰铢             32.47-32.60      32.40-32.63 <BR>美元/菲律宾比索       44.61-44.80      44.40-44.87 <BR>美元/印尼盾           12,810-12,930    12,660-13,000 <BR>美元/印度卢比         62.00-62.39      61.64-62.57<BR></pre><BR>（波动区间是根据近期的高点和低点、期权执行价信息、保利加区间、菲波纳奇水平、趋势线和移动平均等技术指标确定的。）<BR><BR>*请留意相关市场快讯栏目，获得更详细的外汇走势分析。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

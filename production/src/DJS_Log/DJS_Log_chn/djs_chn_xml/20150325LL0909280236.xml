@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324DN014018</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 中国人民币汇率周三官方中间价]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:26</StoryTime>
+<codes codetype="country">R/CH,R/FE,R/FEO,R/FXAS,R/PRM</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/COS,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMS,N/DJN,N/DJRT,N/DN,N/EMR,N/EWR,N/FNVW,N/FXW,N/MADN,N/WED,N/WER,N/APIN,N/DJFN,N/DJWI,N/FRX,N/FXTR,N/MFO,N/MKT,N/TSY,I/USDCN,P/AEQ,P/AEQI,P/AFXB,P/AFXP,P/EMG,P/FNVW,P/FXFX,P/MAAD,P/PSH,P/RCC,P/WMMI,T/CFW,N/CFW,T/COS,N/CONS,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/AUD,M/CAD,M/CNY,M/EUR,M/GBP,M/HKD,M/JPY,M/MYR,M/NND,M/RUB,M/TPX,M/USD</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+以下是中国外汇交易中心(China Foreign Exchange Trade System)周三发布的主要货币兑人民币官方汇率中间价: <BR><pre><BR>               周三     周二<BR>美元/人民币    6.1410   6.1398<BR>欧元/人民币    6.7163   6.7296<BR>日圆/人民币*   5.1398   5.1361<BR>港元/人民币    0.79183  0.79158<BR>英镑/人民币    9.1368   9.1975<BR>澳元/人民币    4.8413   4.8407<BR>新西兰元/人民币4.7004   4.7086<BR>新加坡元/人民币4.5110   4.5028<BR>加元/人民币    4.9120   4.9079<BR>人民币/林吉特  0.58665  0.58806<BR>人民币/卢布    9.3173   9.4991<BR></pre><BR>*每100日圆<BR> <BR>中国央行(People&apos;s Bank of China)通过计算造市商（又称：做市商）提供的价格加权平均值来确定每日人民币兑美元汇率的中间价。计算时不包括最高价和最低价。  <BR><BR>中国允许美元兑人民币汇率在中间价上下2%的范围内波动，人民币兑林吉特和人民币兑卢布在中间价上下5%的范围内波动。 非美元兑人民币汇率在中间价水平上下3%的范围内波动。<BR><BR>信息来源: www.chinamoney.com.cn <BR><BR>Write to djnews.shanghai@dowjones.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

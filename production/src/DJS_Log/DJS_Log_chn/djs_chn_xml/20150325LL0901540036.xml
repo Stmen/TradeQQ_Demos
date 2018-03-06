@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN008654a2</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[*DJ 德国之翼CEO称德国航空事故调查员已抵达法国]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>01:51</StoryTime>
+<codes codetype="country">R/EC,R/EU,R/EZN,R/FR,R/GE,R/SP,R/WEU</codes>
+<codes codetype="subject">L/CH,L/SIMP,P/FLASH,L/CH,L/SIMP,J/CFF,J/TICKER,J/CFW,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJEN,N/DJG,N/DJG7,N/DJGS,N/DJI,N/DJIV,N/DJN,N/DJPT,N/DJQS,N/DJRT,N/DN,N/ECR,N/EUCM,N/EWR,N/FXW,N/WED,N/WER,N/ADR,N/CNW,N/DJWI,N/FCTV,N/GEN,N/TSP,N/WEI,M/CSL,M/CYC,M/MMR,P/ABO,P/AEQI,P/AFXI,P/ESPT,P/HDL,P/RTRS,P/SGN,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/AIR,I/XDAX,I/XDJGI</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DLAKY,LHA.XE,DE0008232125,US2515613048</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+- -<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

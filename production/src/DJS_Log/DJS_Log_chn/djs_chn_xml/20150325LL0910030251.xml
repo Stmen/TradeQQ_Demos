@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN014110</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶台湾股市缺乏交投线索，交易员关注海外市场]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>10:00</StoryTime>
+<codes codetype="country">R/FE,R/FEO,R/FXAS,R/PRM,R/TW</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJGP,N/DJI,N/DN,N/EWR,N/FNVW,N/FXW,N/OSOV,N/WED,N/WER,N/ADR,N/ALMT,N/ANL,N/ASMT,N/CNW,N/DJMT,N/DJWI,N/ENTR,N/SMC,N/STK,N/TWMT,N/WEI,PAG/1106,PAG/5027,PAG/55116,M/FCL,M/IDU,M/NND,M/TEC,P/AEQI,P/AFXI,P/BFX,P/EQE,P/FNVW,P/PSH,P/RC,T/CFW,N/CFW</codes>
+<codes codetype="industry">I/BNK,I/CMT,I/ELQ,I/INL,I/INS,I/SEM,I/XATI,I/XDJGI,I/XGDW,I/XIGT,I/XISL,I/XNYA,I/XSLI,I/XSTX</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">2317.TW,2330.TW,2498.TW,2881.TW,2882.TW,2891.TW,CHYYY,HTCXF,TSM,TW0002317005,TW0002330008,TW0002498003,TW0002881000,TW0002882008,TW0002891009,US14915V1061,US8740391003</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+0146 GMT（道琼斯）--台湾股市停滞不前，报9733.78点，因一些科技权重股买盘的积极作用被金融类股全线下跌的负面影响所抵消。一位本地交易员称，海外投资者正在关注已显露复苏迹象的欧洲市场。该交易员表示，目前台湾股市没有太多振奋人心的消息；许多投资者正在等待第一季度公司业绩的发布，之後才会采取行动。鸿海精密(2317.TW)涨1.1%，报新台币94.30元；宏达国际(2498.TW)和台积电(2330.TW)分别持平于新台币142元和151.50元。银行类股中，富邦金控(2881.TW)跌0.7%，报新台币57.10元；中信金(2891.TW)跌0.2%，报新台币20.65元；国泰金控(2882.TW)跌0.1%，报新台币49.45元。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

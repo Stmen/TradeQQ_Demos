@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074330878</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶美元/加元料将盘整并倾向走高]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:02</StoryTime>
+<codes codetype="country">R/CN,R/US,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,O/NRG,N/IPR,N/NRG,N/PET,N/EGY,N/ENY,N/CMKT,N/DJTA,N/ALMT,P/RCC,A/8764,PAG/1085,PAG/1012,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/USD,M/CAD,I/USDCA,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--美元/加元料将盘整并倾向走高。该汇率周二触及1.2426加元的三周低点。美元人气看涨以及投资者风险偏好降温对该汇率构成支撑。但原油价格坚挺令美元/加元的涨幅受限。日线图仍看跌，MACD和随机指标均看跌；5日移动均线下穿15日移动均线。汇率阻力位在1.2546加元（周二高点），突破後将上看1.2615加元（周一高点），之後依次看1.2723加元（上周五高点）、1.2757加元（上周四高点）、1.2834加元（3月18日触及的六年高点）、心理位1.3000加元一线和1.3063加元（2009年3月9日高点）。支撑位在1.2426加元（周二低点），跌破後将下看1.2404加元（3月4日低点），而後依次看1.2383加元（2月26日低点）、1.2359-1.2351加元（由2月17日低点与2月3日低点构成的区间）和1.2310加元（1月22日低点）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

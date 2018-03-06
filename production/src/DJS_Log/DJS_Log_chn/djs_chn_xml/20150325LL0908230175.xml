@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150322DN002471a3</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 台湾货币市场状况 - 3月25日]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:21</StoryTime>
+<codes codetype="country">R/FE,R/FEO,R/FXAS,R/PRM,R/TW</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/COS,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIV,N/DJMB,N/DJMS,N/DN,N/EMR,N/EWR,N/FNVW,N/FXW,N/WED,N/WER,N/APIN,N/CBK,N/DJWI,N/EMP,N/FCTV,N/FXTR,N/TSY,N/WAER,P/AEQ,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/EMG,P/FNVW,P/RCC,T/CFW,N/CFW,T/COS,N/CONS,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/NND</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+日准备金馀额 (3月24日) - 新台币279.0亿元<BR>当期累计准备金馀额 - 新台币3127.0亿元<BR>3月25日 周三<BR>流入<BR>1. 新台币2280.5亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR>3月26日 周四<BR>流入<BR>1. 新台币3110.5亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR>3月27日 周五<BR>流入<BR>1. 新台币41亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR>3月30日 周一<BR>流入<BR>1. 新台币6789.8亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR>3月31日 周二<BR>流入<BR>1. 新台币1874.5亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR>4月1日 周三<BR>流入<BR>1. 新台币4654.5亿元 NCD/CD 到期<BR>流出<BR>1. 预计台湾央行将通过货币市场操作发售短期票据<BR><BR>消息来源：台湾央行、证券柜台买卖中心(GreTai Securities)、财政部(Ministry of Finance)、国际票券金融股份有限公司(International Bills Finance Corp.)。<BR><BR>Write to djn.taipei@dowjones.com<BR><BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

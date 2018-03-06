@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO085617501</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶美元/新台币有下行倾向]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:15</StoryTime>
+<codes codetype="country">R/FE,R/FEO,R/FXAS,R/NME,R/PRM,R/TW,R/US,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,J/TKR,N/CLSNEW,N/OSOV,N/ALMT,N/DJMT,N/DJTA,N/DJWI,N/ENTR,N/FRX,N/FXMT,N/MFO,N/MKT,N/XSFX,PAG/4022,PAG/1085,M/NND,M/TPX,M/TWD,M/USD,P/AFXB,P/AFXI,P/AFXP,P/BFX,P/PSH,P/RC,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0855（道琼斯）--美元/新台币有下行倾向。如果汇率停留在保利加下行通道内（目前通道上轨在新台币31.320元），就可能继续走低。美元前夜小幅反弹可能提振该汇率，但风险偏好依然积极（可能是受中国货币政策刺激预期提振），因此新台币可能维持近期强势。基准1个月无本金交割远期合约与现汇合约的价差负值进一步扩大表明离岸市场美元/新台币汇率面临空头投机压力，可能会令美元/新台币现汇承压。未来几天，美元/新台币可能试探新台币31.000元的整数位，如跌破这一水平，则可能引发止损相关的美元抛售，导致美元大幅下跌。道琼斯技术分析显示，美元/新台币第一支撑位看新台币31.170元（日线图保利加下降通道下轨），之後看新台币31.000元（整数位）。第一阻力位看新台币31.320元（日线图保利加下降通道上轨），之後看新台币31.460元（日线图一目均衡表云带阻力位）和新台币31.500元（心理阻力位）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

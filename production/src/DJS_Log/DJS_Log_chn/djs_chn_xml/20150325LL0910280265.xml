@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324DN014196</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 全球股票指数： 美东时间22:25/格林威治时间0225]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>10:25</StoryTime>
+<codes codetype="country"></codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJAN,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIR,N/DJIV,N/DJMS,N/DJN,N/DJQB,N/DJQS,N/DJRT,N/DN,N/ECR,N/EMR,N/EWR,N/FNVW,N/FXW,N/WED,N/WER,N/APIN,N/DJWI,N/FCTV,N/NDX,N/STK,N/TAB,N/TSY,PAG/1819,PAG/4179,PAG/5007,PAG/55105,S/ALL,S/STT,P/AEQ,P/AEQI,P/AFXI,P/EMG,P/FNVW,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/NND,M/TPX</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+<pre><BR>                                最新      涨跌      涨跌幅(%)  比去年(%)<BR>纽约            道琼斯          18011.14  -104.90   -0.58      +1.06      收盘价<BR>                那斯达克        4994.73   -16.25    -0.32      +5.46      收盘价<BR>                纽约证交所综指  11019.75  -51.14    -0.46      +1.67      收盘价<BR>                标普500         2091.50   -12.92    -0.61      +1.58      收盘价<BR>                罗素2000        1263.46   -1.25     -0.10      +4.88      收盘价<BR>                道琼斯 TSM      21934.20  -121.66   -0.55      +2.38      收盘价<BR>多伦多          S&amp;P/TSX         15081.26  124.05    0.83       +3.07      收盘价<BR>伦敦            富时100         7019.68   -17.99    -0.26      +6.91      收盘价<BR>                富时250         17579.24  28.01     0.16       +9.29      收盘价<BR>法兰克福        Xetra DAX       12005.69  109.85    0.92       +22.44     收盘价<BR>巴黎            CAC40           5088.28   33.76     0.67       +19.09     收盘价<BR>东京            日经            19689.39  -24.06    -0.12      +12.83     盘中价<BR>                日经300         322.76    -0.16     -0.05      +13.46     盘中价<BR>香港            恒生指数        24441.75  42.15     0.17       +3.54      盘中价<BR>悉尼            S&amp;P/ASX 200     5973.20   4.10      0.07       +10.39     盘中价<BR>                All Ord         5938.00   3.50      0.06       +10.20     盘中价<BR>欧洲            欧洲斯托克600   402.49    1.25      0.31       +17.50     收盘价<BR>                欧洲斯托克50    3484.67   3.79      0.11       +16.00     收盘价<BR>                欧元区斯托克50  3731.35   32.31     0.87       +18.59     收盘价<BR>阿姆斯特丹      AEX             498.66    1.11      0.22       +17.48     收盘价<BR>雅典            ASE             794.57    28.06     3.66       -3.83      收盘价<BR>布鲁塞尔        BEL-20          3765.41   13.83     0.37       +14.62     收盘价<BR>哥本哈根        OMXC20          923.92    8.59      0.94       +24.11     收盘价<BR>都柏林          ISEQ            6141.39   -7.83     -0.13      +17.55     收盘价<BR>赫尔辛基        OMX 赫尔辛基    9263.14   43.70     0.47       +19.39     收盘价<BR>伊斯坦布尔      IMKB-100        82032.59  -1709.40  -2.04      -4.30      收盘价<BR>约翰内斯堡      所有股指数      52858.12  298.77    0.57       +6.20      收盘价<BR>里斯本          PSI 通用指数    2664.73   17.40     0.66       +25.20     收盘价<BR>马德里          IBEX 35         11579.30  126.50    1.10       +12.64     收盘价<BR>米兰            FTSE MIB        23333.20  276.08    1.20       +22.73     收盘价<BR>                FTSE Italia     24882.41  290.30    1.18       +23.56     收盘价<BR>奥斯陆          OBX Stock       562.54    -1.87     -0.33      +7.42      收盘价<BR>                所有股指数      666.78    -0.93     -0.14      +7.59      收盘价<BR>布拉格          PX              1048.75   3.51      0.34       +10.78     收盘价<BR>俄罗斯          RTS             880.28    21.14     2.46       +11.33     收盘价<BR>维也纳          ATX             2537.75   5.34      0.21       +17.48     收盘价<BR>苏黎世          苏黎世市场指数  9292.68   -73.52    -0.78      +3.44      收盘价<BR>道琼斯泛亚指数  1534.08         1.69      0.11      +7.58      盘中价<BR>曼谷            SET             1514.45   -5.56     -0.37      +1.12      收盘价<BR>孟买            S&amp;P BSE Sensex  28161.72  -30.30    -0.11      +2.41      收盘价<BR>雅加达          雅加达综合指数  5430.53   -17.12    -0.31      +3.89      收盘价<BR>吉隆坡          综合指数        1820.41   6.37      0.35       +3.36      盘中价<BR>马尼拉          PSE             7824.51   -4.43     -0.06      +8.21      盘中价<BR>沙特阿拉伯      TASI            9331.19   11.50     0.12       +11.97     收盘价<BR>首尔            韩国综合指数    2040.99   -0.38     -0.02      +6.55      盘中价<BR>上海            综合指数        3664.19   -27.22    -0.74      +13.28     盘中价<BR>                A股指数         3840.29   -28.60    -0.74      +13.30     盘中价<BR>                B股指数         308.91    -0.32     -0.10      +6.24      盘中价<BR>深圳            A股指数         2017.18   5.95      0.30       +36.44     盘中价<BR>                B股指数         1137.61   -1.01     -0.09      +10.58     盘中价<BR>新加坡          海峡时报指数    3412.06   -1.20     -0.04      +1.39      盘中价<BR>台北            加权指数        9707.03   -24.63    -0.25      +4.30      盘中价<BR>惠灵顿          NZSX-50         5865.97   -4.57     -0.08      +5.35      盘中价<BR>布宜诺斯艾利斯  MERVAL指数      11385.38  236.85    2.12       +32.71     收盘价<BR>加拉加斯        通用指数        4796.18   -8.10     -0.17      +24.29     收盘价<BR>墨西哥城        IPC             44051.21  98.50     0.22       +2.10      收盘价<BR>圣地亚哥        IPSA            3179.65   14.19     0.45       +0.46      收盘价<BR>圣保罗          BOVESPA         51506.07  -402.39   -0.78      +3.00      收盘价<BR></pre><BR>所有数据延迟15分钟以上（除道琼斯工业平均指数、道琼斯 TSM及道琼斯泛亚指数外） <BR>来源： SIX Financial Information<BR><BR>（道琼斯）--<BR>-0-<BR>版权所有(c)2013道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

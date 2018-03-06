@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN009338</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 原油期货∶油价下跌，因美元上涨]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>03:23</StoryTime>
+<codes codetype="country">R/EC,R/EU,R/NME,R/UK,R/US,R/WEU</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TICKER,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJCS,N/DJEI,N/DJEP,N/DJG,N/DJG7,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIV,N/DJMS,N/DJN,N/DJOS,N/DJRT,N/DN,N/DOI,N/ECR,N/EMR,N/EUCM,N/EWR,N/FNVW,N/FXW,N/IPR,N/MADN,N/NRG,N/OSCM,N/OSOV,N/OSTR,N/UKMR,N/WED,N/WER,N/CMKT,N/DJWI,N/DRV,N/EGY,N/ENY,N/MKT,N/NMX,N/PET,N/RMKT,N/SNEW,PAG/1086,PAG/28028,PAG/28031,PAG/4107,PAG/75024,M/ENE,M/NND,M/TPX,P/ACMD,P/AENE,P/AEQI,P/AFXI,P/DJCN,P/EMG,P/FNVW,P/MABA,P/MAST,P/NRG,P/OAC,P/PSH,P/RCC,P/RTRS,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/OIL</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+美国原油期货价格周二小幅上涨，全球油价则下跌，因美元走强、供应过剩增加，且需求出现悲观的迹象。<BR><BR>纽约商品交易所五月份交割的轻质低硫原油期货上涨6美分，结算价报47.51美元/桶，涨幅0.1%。该期货早盘最多上涨1.11美元，至48.56美元/桶。<BR><BR>分析师称，油价走势通常与美元连动，尤其是在过去四个月。当美元周二从消费者价格数据中获得提振後，原油遭遇小幅抛售，吐回早盘涨幅。<BR><BR>美国官员周二稍早表示，2月份消费者价格指数(CPI)上涨0.2%，显示美国消费者为商品和服务支付得更多。这扭转了美元最近的跌势，也令油价周一上涨。<BR><BR>Tradition Energy分析师Gene McGillian表示，交易员也为可能于明天出炉的显示增加的原油库存数据做好准备。据周二接受《华尔街日报》(The Wall Street Journal)调查的11名交易员和分析师统计，美国原油库存上周可能增加560万桶。<BR><BR>周二出炉的汇丰中国制造业采购经理人指数初值跌至11个月低点的消息也令油价下跌，因该数据重新点燃了市场对世界第二大经济体的原油需求的担忧。数据显示，该指数3月初值降至49.2，2月终值为50.7。低于50的数据表明工业活动萎缩。<BR><BR>Eric Yep contributed to this article. <BR>Write to Timothy Puko at tim.puko@wsj.com and to Georgi Kantchev at georgi.kantchev@wsj.com. <BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

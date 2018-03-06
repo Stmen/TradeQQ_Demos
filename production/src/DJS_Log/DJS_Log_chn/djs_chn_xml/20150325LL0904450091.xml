@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN010591a2</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 纽约汇市综述∶美元小幅上涨，因美国通胀重拾升势 -2-]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>04:42</StoryTime>
+<codes codetype="country">R/ASI,R/EC,R/EU,R/EZN,R/FE,R/GE,R/JA,R/NME,R/PRM,R/SZ,R/UK,R/US,R/WEU</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TICKER,J/COS,J/CFW,J/TKR,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJCS,N/DJEI,N/DJEP,N/DJG,N/DJG7,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIV,N/DJMS,N/DJN,N/DJOS,N/DJQS,N/DJRT,N/DN,N/DOI,N/ECR,N/EMR,N/EUCM,N/EWR,N/FXW,N/IPR,N/NRG,N/OSAG,N/OSCM,N/OSFR,N/OSME,N/OSOV,N/OSTR,N/UKMR,N/WED,N/WER,N/APIN,N/DDY,N/DJFN,N/DJWI,N/FRX,PAG/1033,PAG/1034,PAG/1074,PAG/1158,PAG/1863,PAG/1865,PAG/20714,PAG/28038,PAG/4162,PAG/4164,M/CHF,M/EUR,M/GBP,M/JPY,M/NND,M/TPX,M/USD,P/ACMD,P/AENE,P/AEQ,P/AEQI,P/AFXB,P/AFXP,P/EMG,P/NAE,P/OAFX,P/RCC,P/WMM,T/CFW,N/CFW,T/COS,N/CONS,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DJDAY</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+周二，美国消费者价格指数自10月以来首次上涨，实现自6月以来最大月度涨幅，美元闻讯後上涨。美联储已将通胀同薪资增长一起作为重要的数据点，用以评估美国经济的健康状况，从而决定何时加息。<BR><BR>Scotiabank首席外汇策略师Camilla Sutton表示，消费者价格指数符合美联储有关核心通胀企稳、对通胀回归目标区间有信心的标准。但她说，美元兑其他货币仍在一个区间内交易，这表明美元在进一步上涨之前需要一个催化剂来推动。<BR><BR>投资者需要通胀朝美联储的2%目标区间加速上升才能将加息时间表提前。反映美国人支付水平的消费者价格指数同去年相比持平，但除去食品和能源的核心价格指数则上涨1.7%。<BR><BR>较高的利率会提振对美元的需求，因高利率会增加以美元计算的资产回报。<BR><BR>较强的美国新屋销售和制造数据也令美元获得上涨动能。Markit的3月份制造业采购经理人指数初值从2月终值的55.1上升至55.3，高于预期的54.0。<BR><BR>商务部周二表示，2月新屋销售升至七年来最高水平，环比上涨7.8%，经季节性因素调整後，折合成年率为53.9万套。经济学家原估新屋销售会下滑至46万套。<BR><BR>Write to James Ramage at james.ramage@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

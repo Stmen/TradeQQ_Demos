@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO085603402</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶美元/人民币料将下行]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:14</StoryTime>
+<codes codetype="country">R/CH,R/FE,R/FEO,R/FXAS,R/PRM,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,N/CLSNEW,N/OSOV,N/ALMT,N/ANL,N/COP,N/DJMT,N/DJWI,N/DRV,N/ENTR,N/FRX,N/MFO,N/MKT,N/QDR,N/STK,PAG/4022,PAG/1085,M/CNY,M/NND,M/TPX,M/USD,P/AFXB,P/AFXI,P/AFXP,P/BFX,P/PSH,P/RC,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/USDCN,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0855（道琼斯）--美元/人民币料将下行。前两个交易日的反弹似乎正失去动能，汇率可能重新回归近期的下行趋势。日线图保利加下行通道依然有效（前提是周三收盘价低于6.2262元），而且如果美元跌破6.2000元（一目均衡表云带支撑区底部、重要整数关口），该下行通道的有效性可能进一步增强。中国央行行长有关今年将推动人民币汇率市场化的暗示促使人民币走高。中国一直在推动利率和汇率市场化进程，为的是让人民币纳入国际货币基金组织的特别提款权货币篮子。周二公布的3月汇丰中国PMI预览指数为49.2，令人失望，2月终值为50.7；不过市场成功摆脱这一不利影响。沪市可能继续维持小幅涨势，因投资者仍预计政府将再次放松货币政策。道琼斯技术分析显示，美元/人民币第一支撑位看6.2000元（整数关口，一目均衡表云带底部），之後分别看6.1800元（心理支撑位）、而後分别看6.1682元（周线图保利加下行通道）。第一阻力位看6.2200元（心理支撑位）、之後看6.2262元（日线图保利加下行通道上轨），随後看6.2365元（日线图一目均衡表云带阻力位顶部）。 <BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

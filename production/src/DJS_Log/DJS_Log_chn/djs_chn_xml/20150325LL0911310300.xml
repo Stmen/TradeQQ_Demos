@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150325WR112728941</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[WSJ 深度∶中国组建亚投行挑战日本在亚洲地位]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>11:28</StoryTime>
+<codes codetype="country">R/ASI,R/CH,R/FE,R/FEO,R/FXAS,R/JA,R/NME,R/PRM,R/SSA,R/US,R/VM</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/TOP3,J/CFF,J/TICKER,J/COS,J/CFW,J/TKR,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIV,N/DJN,N/DJQA,N/DN,N/EWR,N/FXW,N/WED,N/WER,N/WSJC,N/APIN,N/DJWI,N/ENTR,N/NJR,N/TNW,N/TSY,M/FCL,M/NND,P/AEQI,P/AFXI,P/EQDM,P/METH,P/PMDA,P/PMDM,P/PRE,P/RCC,P/WMAI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/BAN,I/BNK,I/SCR</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+中国组建亚洲基础设施投资银行(Asian Infrastructure Investment Bank., 简称∶亚投行)的计划对日本构成挑战。亚投行是一家为亚洲地区基础设施建设提供资金支持的发展银行。日本一直是亚洲地区的一个主要资金提供方，控制著亚洲开发银行(Asian Development Bank)，这是一家已成立数十年的机构，业务范围与亚投行类似。<BR><BR>中国政府为亚投行寻求国际支持的步伐正在加快，尽管遭到美国的反对，但过去几周已有多个欧洲国家同意加入亚投行。<BR><BR>很多亚洲国家也已表示将加入亚投行，但日本是个明显的例外。日本的沉默在一定程度上反映出，该国不想让其在亚洲地区基础设施开发方面的影响力被中国抢去。<BR><BR>亚洲开发银行总部位于菲律宾，这是一家由多个国家和地区组建的银行，但日本和美国占据该行的主导地位。自从20世纪60年代成立以来，该行行长一直由日本人担任。<BR><BR>美国驻亚洲开发银行的前任特使Curtis S. Chin称，在中国国家主席习近平领导下，中国推动成立一家由中国支持的新银行，这对日本目前在该地区的主导地位是一种直接挑战。他表示，这两家发展银行将在很大程度上成为竞争对手。<BR><BR>Chin还称，在中国推动成立亚投行之前，日本迟迟不愿允许其他国家在亚洲开发银行拥有更大发言权。<BR><BR>以中国为首的新兴国家抱怨它们对亚洲开发银行、世界银行(World Bank)和国际货币基金组织(International Monetary Fund，简称IMF)等机构缺乏影响力。这些机构由美国及其盟友主导。<BR><BR>美国牢牢把控世界银行和IMF的重大决策。日本对亚洲开发银行事务虽然没有正式否决权，但它和美国共同控制著该行约四分之一的投票权，比例远高于其他成员。中国对亚洲开发银行的投票权约为6%。<BR><BR>负责筹建亚投行的中国官员金立群曾任亚洲开发银行副行长。<BR><BR>周二日本财务大臣麻生太郎(Taro Aso)说，他认为亚投行与亚洲开发银行之间的竞争并非零和博弈。他指出，亚洲基础设施需求十分庞大。据亚洲开发银行估计，亚洲基础设施需求的规模每年达7,500亿美元。<BR><BR>但麻生太郎担心由中国主导的亚投行是否会遵循国际最佳做法，如保证高标准的项目尽职调查等。他说，日本对加入亚投行持极度审慎立场。<BR><BR>在亚洲开发银行之外，中国和日本近年在双边援助和优惠贷款方面均斥资数十亿美元，帮助贫困亚洲国家建设基础设施。这类援助有益于中国和日本国内的公司。由于中国成本上涨，这些公司正加紧寻找成本更低廉的生产基地。<BR><BR>一些观察人士认为，中国设立亚投行意在提高其援助项目的透明度。不过日本官员表示，他们担心中国可能利用亚投行来实现习近平的设想，即通过公路、铁路和管道网来加强亚洲国家与中国的联系，而不会侧重于满足发展中国家需求。<BR><BR>中国和亚开行淡化处理了对立的意味。亚开行行长中尾武彦(Takehiko Nakao)周二与中国总理李克强会面。据中国官方媒体新华社报导，李克强表示，亚投行和亚开行等现有开发银行是互补的。 <BR><BR>中国财政部长楼继伟上周表示，眼下亚洲基础设施融资需求巨大，他承诺亚投行不会取代现有开发银行的作用。<BR><BR>中尾武彦在一份声明中称，亚投行正式成立後，只要在项目中遵照国际最佳做法，严守程序、环境和社会保障方面的标准，亚开行愿意与亚投行展开合作。<BR><BR>中尾武彦表示，亚开行已经与亚投行筹备官员分享了专业意见。<BR><BR>By Tom Wright; Write to Tom Wright at tom.wright@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

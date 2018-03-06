@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074403939</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶欧元/英镑料将强势盘整]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>07:53</StoryTime>
+<codes codetype="country">R/EU,R/ASI,R/UK,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,N/WER,N/UKMR,N/MSM,N/DJTA,N/DJMB,N/FRX,N/FXMT,N/ALMT,P/RCC,A/1012,PAG/1085,PAG/5015,PAG/75112,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/EUR,M/GBP,I/EURGB,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--欧元/英镑周二触及1个月高点0.7371英镑後料将强势盘整。英国2月CPI数据疲软对汇率构成支撑。日线图指标向好，其中MACD和随机指标看涨，但後者位于超买区；5日移动均线位于15日均线上方且正在上升。阻力位看0.7371英镑（周二高点）；突破後上看0.7405英镑（2月23日高点，接近55日移动均线）。之後分别看0.7427英镑（2月20日高点）和0.7443英镑（2月17日高点）。支撑位看0.7299英镑（周二低点）；跌破後短线看涨前景变弱，下行目标看0.7225英镑（周一低点），之後分别看0.7211英镑（上周五低点）、0.7147英镑（上周四低点）、0.7109英镑（3月17日低点）、0.7090英镑（3月16日低点）和0.7031英镑（3月12日低点）。 <BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

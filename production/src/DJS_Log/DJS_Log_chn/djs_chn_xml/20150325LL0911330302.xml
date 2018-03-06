@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN014312</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶调查显示中国3月份消费者信心改善]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>11:30</StoryTime>
+<codes codetype="country">R/CH,R/FE,R/FEO,R/FXAS,R/PRM</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,N/CLSNEW,N/OSOV,N/ALMT,N/ANL,N/ASMT,N/CNMT,N/DJMT,N/DJWI,N/ENTR,N/GENI,N/IEI,N/STK,PAG/4022,M/MMR,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/BFX,P/NIP,P/PSH,P/RC,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+0257 GMT （道琼斯）--一份私营部门的调查显示，中国央行最近放松货币政策的举措已推动中国消费者的信心升至去年7月以来的最高水平。Deutsche Borse Group伦敦子公司MNI Indicators与澳大利亚西太平洋银行联合进行的调查显示，中国消费者3月份的信心指数从2月的112.0升至114.7。这份对30个中国城市中逾1,000名受访者的调查显示，尽管中国政府将今年的经济增速目标下调至7%，但消费者却更加乐观了。伴随调查发布的公告曾，此次调查结果似乎反映了以下因素的效果∶中国央行2月份宣布的本轮降息周期的第二次降息；中国政府发表了一系列言论，暗示可能推出更多阻止经济过度下滑的刺激举措。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074346173</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶欧元/日圆料将弱势盘整]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>07:56</StoryTime>
+<codes codetype="country">R/ASI,R/EU,R/JA,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,N/WER,N/NJR,N/AER,N/WED,N/DJGS,N/JPMT,N/DJTA,N/DJMB,N/FRX,N/FXMT,N/ALMT,P/RCC,A/55117,PAG/5011,PAG/1037,PAG/1012,PAG/1085,PAG/75112,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/EUR,M/JPY,I/EURJP,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--欧元/日圆料将弱势盘整，周二触及两周高点131.52日圆。拖累该汇率的因素有∶投资者风险偏好降温，日本出口商抛盘。但欧元/日圆跌势受到日本进口商需求的限制。汇率日线图指标仍看涨，其中MACD和随机指标看涨，5日移动均线位于15日移动均线上方且在上行。汇率支撑位在130.35日圆（周二低点），失守後将下看129.29日圆（周一低点），然後看128.72日圆（上周五低点）、128.37-128.27日圆区间（周四低点与3月18日低点构成的区间）、128.11日圆（3月17日低点）和126.91日圆（3月13日触及的20个月低点）。汇率阻力位在131.52日圆（周二高点），突破後将上看131.67日圆（3月8日高点），然後依次看131.87日圆（3月10日高点）、132.50日圆（3月6日高点）和133.58日圆（3月5日高点）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324DN011399</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 纽约银行间大宗外汇交易汇价表]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>05:28</StoryTime>
+<codes codetype="country"></codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMS,N/DJN,N/DJRT,N/DN,N/EWR,N/FNVW,N/FXW,N/MADN,N/WED,N/WER,N/DJFN,N/DJWI,N/FCTV,N/FRX,N/FXTR,N/MFO,N/MKC,N/MKT,N/TSY,P/AEQI,P/AFXB,P/AFXP,P/FNVW,P/MAAD,P/PSH,P/WMMI,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/NND,M/TPX</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+2015年 3月24日 <BR>以下为美国东部时间下午4:00时纽约外汇市场单笔交易金额100万美元以上的中间价。 <BR><pre><BR>                         1单位其它货币兑换的美元  1美元兑换的其它货币<BR>                      今日            前交易日    今日       前交易日<BR>阿根廷比索            0.1137          0.1139      8.7932     8.7805<BR>澳大利亚元            0.7878          0.7880      1.2694     1.2690<BR>巴林第纳尔            2.6518          2.6529      0.3771     0.3770<BR>巴西雷亚尔            0.3189          0.3191      3.1361     3.1339<BR>保加利亚列弗          0.5585          0.5596      1.7904     1.7869<BR>英镑                  1.4852          1.4954      0.6733     0.6687<BR>加拿大元              0.8004          0.7986      1.2494     1.2523<BR>智利比索              0.001607        0.001602    622.20     624.20<BR>中国人民币            0.1611          0.1609      6.2088     6.2152<BR>哥伦比亚比索          0.0003982       0.0003884   2511.25    2574.86<BR>克罗地亚库钠          0.1429          0.1432      7.00       6.98<BR>捷克克朗              0.03986         0.03996     25.088     25.027<BR>丹麦克朗              0.1464          0.1468      6.8313     6.8124<BR>厄瓜多尔美元          1.0000          1.0000      1.0000     1.0000<BR>埃及镑                0.1310          0.1310      7.6317     7.6328<BR>港元                  0.1289          0.1289      7.7565     7.7566<BR>匈牙利福林            0.003652        0.003606    273.83     277.32<BR>冰岛克朗              0.007366        0.007370    135.76     135.68<BR>印度卢比              0.01604         0.01609     62.346     62.143<BR>印尼盾                0.0000773       0.0000770   12930      12989<BR>以色列谢克尔          0.2549          0.2527      3.9231     3.9567<BR>日圆                  0.008351        0.008352    119.75     119.73<BR>哈萨克斯坦坚戈        0.005377        0.005377    185.98     185.98<BR>科威特第纳尔          3.3333          3.3380      0.3000     0.2996<BR>澳门元                0.1252          0.1252      7.9845     7.9898<BR>马来西亚林吉特        0.2739          0.2729      3.6515     3.6647<BR>墨西哥比索            0.0669          0.0670      14.9424    14.9286<BR>新西兰元              0.7653          0.7653      1.3067     1.3067<BR>挪威克朗              0.1273          0.1270      7.8573     7.8752<BR>阿曼里亚尔            2.5968          2.5968      0.3851     0.3851<BR>巴基斯坦卢比          0.0098          0.0098      101.9550   101.7975<BR>秘鲁新索尔            0.3259          0.3252      3.0680     3.0755<BR>菲律宾比索            0.0224          0.0223      44.6675    44.7900<BR>波兰波兹罗提          0.2670          0.2664      3.7456     3.7541<BR>卡塔尔里亚尔          0.2746          0.2746      3.6412     3.6417<BR>俄罗斯卢布            0.0173          0.0170      57.7599    58.7295<BR>沙特里亚尔            0.2666          0.2666      3.7506     3.7508<BR>新加坡元              0.7319          0.7326      1.3663     1.3650<BR>南非兰特              0.0847          0.0840      11.8002    11.9030<BR>韩圆                  0.0009061       0.0009036   1103.69    1106.73<BR>斯里兰卡卢比          0.0075075       0.0075019   133.20     133.30<BR>瑞典克朗              0.1177          0.1176      8.4927     8.5016<BR>瑞士法郎              1.0437          1.0351      0.9581     0.9661<BR>新台币                0.03201         0.03197     31.236     31.276<BR>泰铢                  0.03078         0.03072     32.490     32.550<BR>土耳其里拉            0.39186         0.3934      2.5519     2.5421<BR>乌克兰格里夫尼亚      0.0459          0.0458      21.7660    21.8215<BR>阿联酋迪拉姆          0.2722          0.2723      3.6732     3.6730<BR>乌拉圭新比索          0.03917         0.03914     25.530     25.550<BR>委内瑞拉强势玻利瓦尔  0.158870        0.158704    6.2945     6.3011<BR>欧元                  1.0926          1.0947      0.9153     0.9135<BR>                      收盘            前一交易日<BR>华尔街日报美元指数    86.80           86.76<BR></pre><BR>来源: Tullett Prebon, WSJ Market Data Group<BR><BR>（道琼斯）--<BR>-0-<BR>版权所有(c)2013道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

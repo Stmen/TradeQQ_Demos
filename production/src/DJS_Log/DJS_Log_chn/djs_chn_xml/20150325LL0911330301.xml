@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150325WR11293583</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 分拆房地产资产的热潮涌动]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>11:30</StoryTime>
+<codes codetype="country">R/AR,R/CA,R/CN,R/FL,R/IL,R/IND,R/NME,R/NV,R/NY,R/ONT,R/PA,R/PRM,R/US,R/USC,R/USE,R/USS,R/USW</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TICKER,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJAG,N/DJCS,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIV,N/DJMB,N/DJN,N/DJOS,N/DJPF,N/DJPT,N/DJRT,N/DN,N/EWR,N/FXW,N/MADN,N/OSAG,N/OSCM,N/OSME,N/OSTR,N/WED,N/WER,N/WSJC,N/AGC,N/CAC,N/CNW,N/CTL,N/DJPN,N/DJWI,N/ENTR,N/FCTV,N/FXTR,N/GENI,N/HIY,N/IEN,N/JVN,M/CSL,M/CYC,M/FCL,M/NND,M/RTWS,P/ACMD,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/BKG,P/CMR,P/DJCS,P/EWR,P/MAAD,P/MAST,P/METH,P/NAE,P/NIB,P/NIP,P/OAFX,P/RCC,P/WMAI,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR</codes>
+<codes codetype="industry">I/BAN,I/BNK,I/CEF,I/CNO,I/FIS,I/LOD,I/REA,I/REI,I/RES,I/RRT,I/RSY,I/RTB,I/RTS,I/SAP,I/SCR,I/XBAT,I/XDJGI,I/XDJI,I/XDJLC,I/XFFX,I/XGDW,I/XGTI,I/XISL,I/XNYA,I/XRET,I/XRUS,I/XSCI,I/XSLI,I/XSP1,I/XSP5,I/XSP6,I/XTLT,I/XTSE,I/ZFU</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DDS,DRI,GLPI,HBC.T,JPM,MC,MCD,MGM,NRDC.XX,PENN,PNK,SHLD,SPG,TRA.XX,CA4442181018,US2371941053,US2540671011,US36467J1088,US46625H1005,US5529531015,US5801351017,US60786M1053,US7075691094,US7234561097,US8123501061,US8288061091</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+房地产价值攀升促使越来越多的零售公司考虑分拆旗下房地产资产，以产生现金流。 <BR><BR>上个月末，Hudson&apos;s Bay Co.宣布与美国百货商店运营商Simon Property Group Inc.建立规模为17亿美元的合资公司，涉及42家百货商店。Hudson&apos;s Bay Co.是Saks Fifth Avenue和Lord &amp; Taylor百货商店的加拿大母公司。Hudson&apos;s Bay将持有合资公司80%的股权，但将从该合资公司回租卖场。该公司计划最终将该合资公司分拆成一个房地产投资信托(REIT)。<BR><BR>同在上个月，Sears Holdings Corp.表示，为筹集资金，公司将在6月份前将300家黄金地段的门店分拆为一家独立的公司。<BR><BR>与此同时，过去六个月内，维权投资者也力促其他六家公司进行房地产资产分拆，其中包括快餐连锁公司麦当劳(McDonald&apos;s Co. ,MCD)、百货店Dillard&apos;s Inc.和赌场运营商美高梅金殿梦幻(MGM Resorts International ,MGM)。<BR><BR>至少有一些公司在认真对待这一建议。去年年末，Darden Restaurants Inc.称该公司已经聘请了摩根大通(J.P. Morgan Chase &amp; Co.)和Moelis &amp; Co.的银行家来探索将其房地产资产货币化的可选方案，这些资产包括Olive Garden和Capital Grille等约1,200家餐厅。去年12月，赌场运营商Pinnacle Entertainment Inc.称将寻求成立房地产投资信托基金(REIT)，作为该公司房地产资产分拆计划的一部分。<BR><BR>这种趋势一定程度上是受创历史新高的房地产资产估值驱动。最近数据显示，2月末衡量各类型商业地产价值的指标Green Street商业地产价格指数(Green Street Commercial Property Price Index)已较2007年的高点上涨14%。地产股基准指标MSCI美国REIT指数(The MSCI U.S. REIT Index)本周触及1192.61点，仅较2007年初的历史最高水平低3.7%。<BR><BR>Simon Property高级副总裁Stanley Shashoua表示，低利率和债券价格高企也促使投资者买入收益更高的房地产相关资产。Lord &amp; Taylor和Saks的地产交易是由Shashoua帮助安排的。<BR><BR>另一个因素是有利的税项安排。自从20世纪60年代作为一种企业结构成立以来，只要能够通过分红将大部分利润回报给投资者，REIT一直无需缴纳或只需缴纳很少的所得税。税项宽免使得过去两年拥有大量房地产资产的企业纷纷转型为REIT，其中包括数据存储公司、通信设施运营商、甚至健身房业主。<BR><BR>By Robbie Whelan<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

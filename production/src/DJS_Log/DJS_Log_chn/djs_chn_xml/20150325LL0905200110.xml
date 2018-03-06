@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN010826a2</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 美国股市收跌，交易淡静 -2-]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>05:17</StoryTime>
+<codes codetype="country">R/CA,R/CO,R/MD,R/MI,R/NME,R/NY,R/PA,R/PRM,R/US,R/USC,R/USE,R/USW</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TICKER,J/COS,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJAG,N/DJAN,N/DJCS,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIV,N/DJMB,N/DJN,N/DJOS,N/DJPF,N/DJPT,N/DJRT,N/DN,N/DOI,N/ECR,N/EWR,N/FXW,N/IPR,N/MADN,N/NRG,N/OSAG,N/OSCM,N/OSFF,N/OSME,N/OSTR,N/WED,N/WER,N/CNW,N/DJPN,N/DJWI,N/ENTR,N/FXTR,N/GENI,N/HIY,N/IEN,PAG/1106,PAG/4116,M/BSC,M/CSL,M/ENE,M/FCL,M/NCY,M/NND,M/TPX,P/ACMD,P/AENE,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/DJCS,P/EIE,P/EQE,P/EWR,P/FXEQ,P/MAAD,P/MAST,P/METH,P/NAE,P/NRG,P/RCC,P/WMAI,P/WMM,N/COR,T/CFW,N/CFW,T/COS,N/CONS,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/CHC,I/CHM,I/FIS,I/FOD,I/OFP,I/OIS,I/SCR,I/XCET,I/XDJGI,I/XDJLC,I/XFFX,I/XGDW,I/XISL,I/XNYA,I/XRUS,I/XSLI,I/XSP1,I/XSP5</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DOW,LINE,MKC,NDAQ,WBM.XX,WLL,US2605431038,US5360201009,US5797802064,US6311031081,US9663871021</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+Stifel Nicolaus证券交易主管Justin Wiggs表示，股市看似处于停滞状态，因缺乏左右市场走势的新鲜消息。他说，交易量偏低，周二为今年交易量第二低的一日，周一则是第三低。<BR><BR>美国劳工部周二表示，2月消费者价格环比上涨0.2%，为自10月以来首次上涨、自6月以来最大涨幅，且符合预期。除去食品和能源的核心价格也上涨0.2%。<BR><BR>尽管该指数上涨，数据显示美国通胀率仍然偏低，这可能令美联储在面对加息时保持谨慎。美联储正在关注就业和通胀，以为广被预期的今年晚些时候加息做准备。<BR><BR>交易员称，美元走强仍然是投资者关注的焦点。<BR><BR>Wedbush Securities证券交易主管Ian Winer表示，美元是关键，它是推动市场到目前走势的重要因素，股市似乎与美元高度关联。<BR><BR>投资者也越来越担心美元走强会让出口到国外的美国产品变得更昂贵，且降低以外汇赚得的利润价值，从而削弱大型美国跨国公司的利润。随著美元走强，一些投资者称他们正在卖出主导标普500指数的大公司的股票，转而买进市值较小的公司的股票。<BR><BR>公司消息方面，Whiting Petroleum Corp.股价暴跌19%，因该公司以低于周一收盘价22%的价格卖出3500万股普通股。这笔交易可能令投资者惊慌，因其暗示任何收购该油气生产商的大型交易都不大可能在最近发生。<BR><BR>McCormick &amp; Co.表示其利润下跌15%，并称强势美元拖累了截至2月财季的销售增长。不过，该公司调整後的业绩超出预期，股价仍上涨2.6%。<BR><BR>Linn Energy LLC表示，已与私募股权基金公司Quantum Energy Partners合作，在油气领域寻求收购标的。Linn股价上涨4.2%。<BR><BR>Write to Corrie Driebusch at corrie.driebusch@wsj.com and Dan Strumpf at daniel.strumpf@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

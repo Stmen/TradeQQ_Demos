@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074316775</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶美元/瑞士法郎料将弱势盘整]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:06</StoryTime>
+<codes codetype="country">R/US,R/ASI,R/SZ,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,N/WER,N/DJTA,N/DJMB,N/FRX,N/FXMT,N/ALMT,P/RCC,A/1050,PAG/1012,PAG/1085,PAG/5022,PAG/75112,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/USD,M/CHF,I/USDCH,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--美元/瑞士法郎料将弱势盘整，周二触及三周低点0.9530瑞士法郎。欧元/瑞士法郎走软引发的瑞士法郎需求拖累该汇率，不过该汇率跌势受到以下因素限制∶美元人气升温、瑞士负利率、瑞士央行抛售瑞郎进行干预的威胁。日线图指标看跌，其中MACD和随机指标均看跌，5日移动均线位于15日移动均线下方且在下降。汇率支撑位在0.9530瑞士法郎（周二低点），失守後将下看0.9477瑞士法郎（55日移动均线），然後依次看0.9444瑞士法郎（2月27日低点）、0.9415瑞士法郎（200日移动均线）和0.9383瑞士法郎（2月23日低点）。汇率阻力位在0.9694瑞士法郎（周二高点），突破後将抑制近期看跌前景，上行目标指向0.9812瑞士法郎（周一高点），然後依次看0.9984瑞士法郎（周四高点）、1.0069瑞士法郎（3月18日高点）、1.0091瑞士法郎（3月17日高点）、1.0112瑞士法郎（3月13日高点）和1.0128瑞士法郎（3月12日高点）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

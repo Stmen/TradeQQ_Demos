@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN007227</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ Novo Banco收到七份非约束性收购邀约 - 葡萄牙央行]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>00:44</StoryTime>
+<codes codetype="country">R/EC,R/EU,R/EZN,R/PO,R/WEU</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TKR,J/TICKER,J/CFW,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJEI,N/DJEP,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJPT,N/DJQS,N/DN,N/ECR,N/EMR,N/EUCM,N/EWR,N/FNVW,N/FXW,N/WED,N/WER,N/CAC,N/CNW,N/DJPN,N/DJWI,N/EEC,N/EMU,N/FCTV,N/FXTR,N/TNM,N/TSY,N/WAER,N/WEI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/BAN,I/BNK,I/XDJGI</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">BES.LB,PTBES0AM0007</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+里斯本--葡萄牙央行周二表示，去年8月从已破产银行Banco Espirito Santo SA设立出的葡萄牙银行Novo Banco，在最新一轮竞购中共收到七分非约束性的收购邀约，应在夏季之前达成出售交易。<BR><BR>葡萄牙央行行长Carlos Costa在议会委员会发表的讲话中未指明竞购者的身份。此前，西班牙国家银行(Banco Santander SA)、Banco BPI SA、中国复星国际有限公司(Fosun International Ltd., 0656.HK, 简称：复星国际)以及美国私募股权公司Apollo Global Management LLC(APO)都对这家葡萄牙第三大银行表示出收购兴趣。<BR><BR>受葡萄牙央行委托处理这起出售交易的法国巴黎银行(BNP Paribas)在一份文件中称，这笔交易提供了购买对葡萄牙一家具有国际业务的主要金融机构控制权的机会。<BR><BR>Novo Banco目前拥有725亿欧元资产，在葡萄牙银行市场中占有18%份额，并在包括安哥拉和莫桑比克在内的全球近24个国家设有分支机构。<BR><BR>Write to Patricia Kowsmann at Patricia.Kowsmann@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

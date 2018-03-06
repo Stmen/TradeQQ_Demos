@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN012899</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 谷歌充分利用与白宫的密切关系 &gt;GOOG]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>10:06</StoryTime>
+<codes codetype="country">R/CA,R/DC,R/NME,R/PA,R/PRM,R/US,R/USE,R/USS,R/USW,R/WA</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TICKER,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJN,N/DJPT,N/DJQA,N/DJRT,N/DN,N/EWR,N/FXW,N/MADN,N/WED,N/WER,N/WSJC,N/CAC,N/CNW,N/DJPN,N/DJWI,N/ENTR,N/FCTV,N/GEN,N/LWS,N/PLT,N/TNW,N/TST,N/TSY,N/WEI,M/CSL,M/CYC,M/NND,M/TEC,P/AEQI,P/AFXI,P/CMR,P/EIE,P/EQE,P/EWR,P/MAAD,P/MABA,P/MAST,P/METH,P/NIB,P/NIP,P/PMDM,P/PRE,P/PSH,P/RCC,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR</codes>
+<codes codetype="industry">I/BRD,I/ISV,I/MED,I/SOF,I/XDJGI,I/XDJI,I/XDJLC,I/XFFX,I/XGDW,I/XGTI,I/XISL,I/XMET,I/XNQ1,I/XRUS,I/XSLI,I/XSP1,I/XSP5,I/XSTX</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">CMCSA,CMCSK,GOOG,GOOGL,MSFT,US20030N1019,US20030N2009,US38259P5089,US38259P7069,US5949181045</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+华盛顿--当美国联邦政府针对谷歌(Google Inc.)的反垄断调查进入收尾阶段时，谷歌高管曾与白宫和调查执行机构联邦贸易委员会(Federal Trade Commission，简称FTC)的高级官员进行了一系列会谈。<BR><BR>据访客记录和《华尔街日报》(The Wall Street Journal)见到的电邮显示，谷歌联合创始人佩奇(Larry Page)曾与FTC官员会面，讨论和解谈判相关事宜。谷歌董事长施密特(Eric Schmidt)则在白宫与总统奥巴马(Barack Obama)的高级顾问劳斯(Pete Rouse)进行了商谈。<BR><BR>上述文件没有显示2012年年底的讨论内容。自那不久，FTC在谷歌同意自愿改变其商业行为之後结束了反垄断调查。<BR><BR>谷歌能在反垄断调查关键阶段接触到奥巴马政府高级官员，这体现出谷歌在华盛顿的经营。根据《华尔街日报》见到的访客记录，自奥巴马执政以来，谷歌员工在白宫和高级官员会面约230次，平均约每周一次。<BR><BR>谷歌的一名顶级说客谢尔顿(Johanna Shelton)在白宫和官员会面了不下60次。与之相较，自奥巴马执政以来，谷歌竞争对手康卡斯特(Comcast Corp.)的员工仅造访了白宫约20次，而康卡斯特同样被认为是华盛顿的一股势力。<BR><BR>谷歌发言人克里斯托夫(Niki Christoff)说，谷歌认为，在相关讨论中拥有强大话语权，帮助政策制定者理解谷歌业务，理解谷歌为保持互联网开放、构建伟大产品并促进经济增长所做的工作，这一切十分重要。<BR><BR>白宫一名发言人表示，FTC是独立机构，白宫尊重FTC的独立决定。<BR><BR>这位发言人还表示，白宫例行会就一系列议题会见企业高管。这些会谈有助白宫获悉与重要政策议题相关的外界观点。白宫雇员清楚了解不应讨论监管执法相关问题。<BR><BR>By Brody Mullins; Write to Brody Mullins at brody.mullins@wsj.com <BR><BR>  <BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

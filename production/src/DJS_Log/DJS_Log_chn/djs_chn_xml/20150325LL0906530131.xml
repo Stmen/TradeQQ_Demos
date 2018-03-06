@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324DN012049</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 银行间汇率： 美东时间18:50 /格林威治时间2250]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>06:50</StoryTime>
+<codes codetype="country"></codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJCS,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIR,N/DJIV,N/DJMS,N/DJN,N/DJOS,N/DJQB,N/DJRT,N/DN,N/EMR,N/EWR,N/FNVW,N/FXW,N/MADN,N/OSAG,N/OSCM,N/OSEN,N/OSFR,N/OSME,N/OSTR,N/WED,N/WER,N/DJFN,N/DJWI,N/FRX,N/MFO,N/MKT,N/TAB,N/TSY,PAG/1087,PAG/4046,S/ALL,S/FXH,P/ACMD,P/AEQI,P/BFX,P/EMG,P/FNVW,P/MAAD,P/PSH,P/WMMI,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/AUD,M/CAD,M/CHF,M/EUR,M/GBP,M/JPY,M/NND,M/TPX,M/USD</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+<pre><BR>                        最新          前日          涨跌(%)  当日     当日     涨跌(%)<BR>美元汇率                              收盘          最高     最低     12/31<BR>USD/JPY 日圆            119.73-74     119.75-76     -0.01    119.78   119.71   +0.01<BR>EUR/USD 欧元            1.0911-14     1.0924-27     -0.12    1.0929   1.0911   -9.80<BR>GBP/USD 英镑            1.4839-44     1.4849-54     -0.07    1.4854   1.4837   -4.73<BR>USD/CHF 瑞士法郎        0.9590-94     0.9579-83     +0.11    0.9595   0.9580   -3.53<BR>USD/CAD 加拿大元        1.2503-08     1.2491-96     +0.10    1.2508   1.2492   +7.61<BR>AUD/USD 澳大利亚元      0.7868-72     0.7876-80     -0.10    0.7883   0.7868   -3.68<BR>NZD/USD 新西兰元        0.7631-37     0.7650-56     -0.25    0.7665   0.7624   -2.07<BR>欧元汇率<BR>EUR/JPY 日圆            130.62-66     130.80-84     -0.14    130.87   130.63   -9.87<BR>EUR/GBP 英镑            0.7351-54     0.7357-60     -0.08    0.7360   0.7352   -5.32<BR>EUR/CHF 瑞士法郎        1.0464-67     1.0467-70     -0.03    1.0476   1.0465   -13.01<BR>EUR/CAD 加拿大元        1.3638-48     1.3643-53     -0.04    1.3659   1.3640   -2.96<BR>EUR/AUD 澳大利亚元      1.3857-67     1.3862-72     -0.04    1.3875   1.3849   -6.38<BR>EUR/DKK 丹麦克朗        7.4618-25     7.4624-31     -0.01    7.4640   7.4594   +0.20<BR>EUR/NOK 挪威克朗        8.5809-59     8.5811-61     0.00     8.5851   8.5778   -4.79<BR>EUR/SEK 瑞典克朗        9.2789-889    9.2730-830    +0.06    9.2876   9.2699   -1.69<BR>EUR/CZK 捷克克朗        27.380-442    27.380-442    0.00     27.421   27.396   -0.91<BR>EUR/HUF 匈牙利福林      298.71-9.23   298.89-9.41   -0.06    299.53   298.56   -5.52<BR>EUR/PLN 波兰兹罗提      4.0945-61     4.0917-33     +0.07    4.0970   4.0908   -4.46<BR>日圆汇率<BR>AUD/JPY 澳大利亚元      94.22-26      94.32-36      -0.11    94.42    94.21    -3.66<BR>GBP/JPY 英镑            177.67-73     177.81-87     -0.08    177.87   177.63   -4.72<BR>CAD/JPY 加拿大元        95.72-77      95.83-88      -0.12    95.87    95.74    -7.03<BR>NZD/JPY 新西兰元        91.38-42      91.62-66      -0.26    91.79    91.28    -2.07<BR>其他美元汇率<BR>USD/CZK 捷克克朗        25.094-144    25.063-113    +0.12    25.120   25.079   +9.87<BR>USD/HUF 匈牙利福林      273.87-4.27   273.63-4.03   +0.09    274.23   273.37   +4.75<BR>USD/DKK 丹麦克朗        6.8381-91     6.8308-18     +0.11    6.8395   6.8280   +11.10<BR>USD/NOK 挪威克朗        7.8633-93     7.8543-603    +0.11    7.8673   7.8541   +5.57<BR>USD/PLZ 波兰兹罗提      3.7526-31     3.7453-58     +0.19    3.7531   3.7453   +5.93<BR>USD/RUB 俄罗斯卢布      57.731-91     57.730-90     +0.00    57.781   57.725   -4.60<BR>USD/SEK 瑞典克朗        8.5040-130    8.4882-972    +0.19    8.5090   8.4842   +8.97<BR>USD/ZAR 南非兰特        11.7994-8294  11.7852-8152  +0.12    11.8167  11.7970  +2.22<BR>USD/CNY 人民币          6.2072-92     6.2078-98     -0.01    6.2090   6.2014   +0.05<BR>USD/HKD 港元            7.7561-66     7.7562-67     0.00     7.7567   7.7562   +0.02<BR>USD/MYR 马来西亚林吉特  3.6525-75     3.6490-540    +0.10    3.6550   3.6533   +4.29<BR>USD/INR 印度卢比        62.255-75     62.336-56     -0.13    62.373   62.262   -1.22<BR>USD/IDR 印尼盾          12926-36      12925-35      +0.01    12946    12926    +4.06<BR>USD/PHP 菲律宾比索      44.665-70     44.665-70     0.00     44.668   44.668   -0.13<BR>USD/SGD 新加坡元        1.3664-74     1.3658-68     +0.04    1.3676   1.3661   +3.14<BR>USD/KRW 韩圆            1102.49-4.49  1102.69-4.69  -0.02    1104.09  1103.37  +0.88<BR>USD/TWD 新台币          31.231-37     31.233-39     -0.01    31.241   31.234   -1.30<BR>USD/THB 泰铢            32.490-510    32.480-500    +0.03    32.520   32.480   -1.25<BR>USD/VND 越南盾          21455-555     21455-555     0.00     21505    21505    +0.56<BR>USD/BRR 巴西雷亚尔      3.1388-418    3.1346-76     +0.13    3.1403   3.1346   +18.17<BR>USD/MXN 墨西哥比索      14.9275-575   14.9274-574   +0.00    14.9522  14.9414  +1.34<BR>USD/ARS 阿根廷比索      8.7762-802    8.7912-52     -0.17    8.7800   8.7759   +3.70<BR></pre><BR>来源： Tullett Prebon<BR><BR>（道琼斯）--<BR>-0-<BR>版权所有(c)2013道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

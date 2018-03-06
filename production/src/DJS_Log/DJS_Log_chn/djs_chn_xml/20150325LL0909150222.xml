@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN013986</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[*DJ 日经指数跌破前收盘点位]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>09:12</StoryTime>
+<codes codetype="country">R/ASI,R/FE,R/JA,R/PRM</codes>
+<codes codetype="subject">L/CH,L/SIMP,P/FLASH,L/CH,L/SIMP,J/CFF,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJCS,N/DJG,N/DJG7,N/DJGS,N/DJI,N/DJMS,N/DJN,N/DJOS,N/DN,N/ECR,N/EWR,N/FXW,N/OSCM,N/OSFF,N/WED,N/WER,N/DJWI,N/FXTR,N/MSM,N/NJR,N/SMC,N/STK,M/NND,P/ACMD,P/AEQ,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/FXEQ,P/HDL,P/HLO,P/RCC,P/RTRS,P/WMMI,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+- -<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

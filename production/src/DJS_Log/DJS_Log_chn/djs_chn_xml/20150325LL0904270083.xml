@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN009657a5</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 10年期美国国债收益率跌破1.9%]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>04:24</StoryTime>
+<codes codetype="country">R/NME,R/US</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TICKER,J/COS,J/CFW,J/TKR,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJCS,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMS,N/DJN,N/DJOS,N/DJPF,N/DJRT,N/DN,N/DOI,N/EMR,N/EWR,N/FNVW,N/FXW,N/IPR,N/MADN,N/NRG,N/OSCM,N/WED,N/WER,N/APIN,N/BON,N/DDY,N/DJWI,N/EMP,N/FCTV,N/FIN,N/FXTR,N/LTAM,N/MFO,N/MKC,N/MKT,PAG/1079,PAG/20715,PAG/4041,PAG/4048,PAG/4275,M/NND,M/TPX,P/ACMD,P/AENE,P/AEQ,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/EMG,P/FNVW,P/MAAD,P/MABA,P/MAST,P/NAE,P/PSH,P/RCC,P/WMAI,P/WMM,T/CFW,N/CFW,T/COS,N/CONS,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DJDAY</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+美国国债周二上涨，收益率在逾六周以来首次跌破1.9%，因投资者预期美联储不急于加息。<BR><BR>10年期美国国债收益率尾盘报1.878%，为2月5日以来最低收盘水平，周一为1.916%。收益率已连续三个交易日下跌。<BR><BR>周二发行的260亿美元2年期美国国债吸引了强劲需求，带动国债价格上涨。值得注意的是该国债销售的直接投标比率达到18.3%，为6月以来的最高水平。<BR><BR>投资者在美联储上周暗示对加息保持犹豫立场後大举买进国债。<BR><BR>周二的报告显示，2月份美国消费者价格指数(CPI)较前月上涨0.2%，为6月以来最大升幅，也符合经济学家的平均预期。除去能源和食品的核心CPI上涨0.2%，高于接受《华尔街日报》(The Wall Street Journal)调查的经济学家原估的增长0.1%。<BR><BR>尽管该指数上涨幅度令人意外，但折合成年率的核心通胀为1.7%，仍低于美联储的2%目标。<BR><BR>Janney Montgomery Scott LLC首席固定收益策略师Guy LeBas表示，通胀偏低，且普遍如此。该机构预期美联储将于9月加息，因其认为经济增长缓慢且通胀有限。<BR><BR>ED &amp; F Man Capital Markets利率和信贷交易主管Tom di Galoma表示，美国经济没有通胀，这导致债券投资者在收益率如此低的情况下依然买入国债。他预测美联储会等到2016年才加息，且国债收益率仍有下跌空间。<BR><BR>Write to Min Zeng at min.zeng@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

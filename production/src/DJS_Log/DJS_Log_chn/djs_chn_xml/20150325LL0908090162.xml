@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074148645</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶美元/日圆料将盘整]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:06</StoryTime>
+<codes codetype="country">R/US,R/ASI,R/JA,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,N/WER,N/NJR,N/AER,N/WED,N/DJGS,N/JPMT,N/DJTA,N/DJMB,N/FRX,N/FXMT,N/ALMT,P/RCC,A/1037,PAG/1012,PAG/1085,PAG/5011,PAG/55117,PAG/75112,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/USD,M/JPY,I/USDJP,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--美元/日圆料将盘整，周二曾触及近一个月低点119.22日圆。支撑该汇率的因素包括∶高于预期的美国经济数据公布後美元人气改善，日本进口商的美元需求，日本央行超宽松的货币政策。但以下因素限制了美元/日圆上行空间∶美国国债收益率下降，日本出口商卖盘，中国经济新的放缓迹象带动风险偏好降温之际避险资金买入日圆。日线图指标仍看跌，MACD和随机指标均看跌，5日移动均线位于15日移动均线下方且在下降。支撑位在119.22日圆（周二低点），失守後下看119.11日圆（2月27日低点，接近55日移动均线）、118.80日圆（100日移动均线）、118.62日圆（2月25日低点）、118.30日圆（2月20日低点）、118.11日圆（2月16日低点）和117.17日圆（2月6日低点）。阻力位在119.98日圆（周二高点），突破後上看120.17日圆（周一高点），然後是121.20日圆（上周五高点），之後看121.41日圆（3月18日高点）、121.53日圆（3月17日高点）、121.67日圆（3月12日高点）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

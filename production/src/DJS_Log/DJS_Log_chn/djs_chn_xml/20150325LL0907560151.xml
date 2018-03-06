@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150325WR075329485</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 美联储官员的加息预警未影响债市]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>07:54</StoryTime>
+<codes codetype="country">R/NME,R/US</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TICKER,J/CFF,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJCS,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMB,N/DJMS,N/DJN,N/DJOS,N/DJPF,N/DJRT,N/DN,N/EWR,N/FNVW,N/FXW,N/MADN,N/OSAG,N/OSCM,N/OSME,N/OSOV,N/OSTR,N/WED,N/WER,N/BON,N/CBK,N/DJFN,N/DJWI,N/ECO,N/EMP,N/FFR,N/FIN,N/FXTR,N/GEN,N/GENI,N/IEN,M/NND,M/TPX,G/FED,G/USG,P/ACMD,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/FNVW,P/MAST,P/METH,P/NAE,P/OAFX,P/RCC,P/WMAI,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+美国联邦储备委员会（简称∶美联储）两位高级官员本周向投资者发出警告称，6月份仍有可能加息，但未能让债券市场信服。<BR><BR>圣路易斯联邦储备银行行长布拉德(James Bullard)周二表示，美联储需要尽快加息。一天前，旧金山联邦储备银行行长威廉斯(John Williams)称，美联储官员应当考虑今年夏季加息。<BR><BR>债券购买者并未理会上述警告。基准10年期美国国债收益率跌至六周低点1.878%，2014年年底为2.173%。<BR><BR>短期利率上升应当会削弱发行在外债券的价值，因为投资者可能会纷纷买入收益率更高的新发行债券。<BR><BR>ED &amp; F Man Capital Markets驻纽约的利率和信用交易业务主管Tom di Galoma称，美国经济没有通胀问题，促使债券投资者在收益率如此低的情况下继续买入国债。他看涨债券市场，因为他预计美联储会等到2016年再加息。<BR><BR>10年期美国国债收益率在美国通胀报告公布前跃升至1.918%。在通胀报告公布的最初，投资者抛售债券，因报告显示2月通胀指标自去年10月份以来首次出现上涨。<BR><BR>不过後来有买家介入，因为他们意识到通胀率水平还不足以促使美联储很快行动。消费者价格指数较上年同期持平。<BR><BR>CME Group数据显示，投资者和交易员用来押注央行政策的联邦基金利率期货周二显示，投资者认为6月加息的几率只有7%，美联储在9月会议上加息的几率为43%。<BR><BR>一些分析师和投资者警告称，市场信号与美联储预期持续不符可能会引发金融市场大幅动荡。布拉德自己也承认，市场与美联储之间可能会有一个动荡的和解过程。<BR><BR>By Min Zeng; Write to Min Zeng at min.zeng@wsj.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

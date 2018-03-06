@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150325LLO11070118a4</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 穆迪∶年初至今中国房企海外发债大幅放缓]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>11:37</StoryTime>
+<codes codetype="country">R/CH,R/FE,R/FEO,R/FXAS,R/HK,R/PRM</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJCB,N/DJFP,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMB,N/DJMO,N/DJN,N/DJRT,N/DN,N/EMR,N/EWR,N/FXW,N/WED,N/WER,N/WSJC,N/APIN,N/BON,N/CCS,N/COB,N/DJFN,N/DJWI,N/EMT,N/FRX,N/FXTR,N/GENI,N/IBO,N/IEI,N/MFO,N/MKT,N/PAN,N/TRD,N/TSY,PAG/1161,M/CNY,M/FCL,M/NND,M/TPX,P/AEQ,P/DRT,P/NIB,P/NIP,P/OAFX,P/PSH,P/WMM,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">1638.HK</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港--国际评级机构穆迪投资者服务公司(Moody&apos;s Investors Service, 简称∶穆迪)周三表示，在中国经济增长放缓及房地产市道不景气下，年初至今中国房地产开发商海外发债量大幅放缓。<BR><BR>根据穆迪的统计，年初至今，只有按6家该行有进行信用评级的中国房企有在海外发债融资，发债金额仅47亿美元。相对而言，去年同期则有20家中国房企在海外发债，发债金额92亿美元。<BR><BR>穆迪相信，除了因为中国房地产的经营环境比较具挑战性外，佳兆业集团控股有限公司(Kaisa Group Holdings Ltd., 1638.HK, 简称∶佳兆业)违约事件，也是其中一个因素。<BR><BR>穆迪预计，2015年全年而言，中国房企海外发债金额将少于2014年，除了上述行业及佳兆业违约事件市场气氛外，中国央行近期的减息行动令境内融资成本下降，也减低了在境外融资的吸引力。<BR><BR>穆迪认为，中国的房地产市场今年仍未许乐观，该行预计，2015年中国房屋销售按年可能录得0%-5%的下降，但跌幅已较2014年的7.8%跌幅有所收窄。由于房企还不断削价减库存，预计未来数房价仍会有压力。<BR><BR>在中国房地产行业不断整合的过程中，穆迪认为，该行有进行评级的20家中国房企将跑赢行业，因为它们的实力相对好。<BR><BR>By Carol Chan; Write to Carol Chan at carol.chan@dowjones.com<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

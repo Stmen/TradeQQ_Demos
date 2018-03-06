@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN014178</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶韩国第四季度数据疲软 需要央行继续降息]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>10:18</StoryTime>
+<codes codetype="country">R/ASI,R/FE,R/FEO,R/FXAS,R/PRM,R/SK</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TKR,J/CFF,J/TICKER,J/CFW,N/CLSNEW,N/OSOV,N/ALMT,N/ANL,N/DJMT,N/DJWI,N/ENTR,N/GENI,N/IEI,N/STK,PAG/4022,M/NND,P/AFXB,P/AFXI,P/AFXP,P/BFX,P/PSH,P/RC,T/CFW,N/CFW,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+0203 GMT（道琼斯）--荷兰国际集团Tim Condon表示，韩国2014年第四季度的疲软数据显示，央行近期的货币宽松措施并未提振经济，需要进一步降息。疲软数据包括向下修正的GDP增长率以及仍然低迷的物价水平。Condon在研报中称，韩国央行过去三年内累计125个基点的降息未能阻止2010年後出口下滑的影响蔓延至国内消费支出。荷兰国际集团预计，韩国央行今年将进一步降息25个基点，至1.50%。韩国央行周三公布的修正数据显示，经季节因素调整後，去年第四季度GDP较前一季度增长0.3%，前一季度经济增幅为0.8%。第四季度韩国GDP较上年同期增长2.7%，增速低于第三季度的3.3%。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

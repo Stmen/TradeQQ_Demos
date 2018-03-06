@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150325WR103214969</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 股闻天下∶中信股份受困价值难以释放]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>10:33</StoryTime>
+<codes codetype="country">R/ASI,R/CH,R/FE,R/FEO,R/FXAS,R/HK,R/PRM</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/TOP2,J/COS,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJGP,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJN,N/DJPF,N/DJPT,N/DN,N/EMR,N/EWR,N/FXW,N/MADN,N/WED,N/WER,N/WSJC,N/ADR,N/APIN,N/CNW,N/DJPN,N/DJWI,N/ENTR,N/FCTV,N/HRD,N/STK,N/TNW,N/TSY,N/WEI,T/CFW,N/CFW</codes>
+<codes codetype="industry">I/IDD,I/SCR,I/SVC,I/XCSI,I/XDJGI,I/XHSG,I/XSLI</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">0267.HK,600030.SH,6030.HK,CTPCY,CNE000001DB6,CNE1000016V2,HK0267001375,US17304K1025</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+中国最大的综合企业中信股份(Citic)可能有一定的价值，但该公司周二公布的年度业绩提醒人们，目前还没有可靠的途径来提取其价值。<BR><BR>去年3月份中信将几乎全部资产注入一家香港上市的子公司，成为中国国有资产改革的标杆。但几个月的兴奋之後，其股票陷入重组後的消沉。<BR><BR>现在来看，中信股份423亿美元的市值似乎有些偏低。这一市值低于其在上市公司中信银行股份有限公司(China CITIC Bank Co., 简称：中信银行)和中信证券股份有限公司(CITIC Securities Co., 简称：中信证券)所持股份的价值477亿美元。另外，中信旗下还包括几家非上市公司，摩根士丹利(Morgan Stanley)的Corey Chan根据同类上市公司的估值计算其价值为200亿-250亿美元。这预示著中信股份股价目前较基础资产折价至少37%，幅度明显高于香港和中国大陆综合企业22%的平均折价幅度。<BR><BR>问题在于，几乎没有什麽迹象显示中信股份的折价幅度会收窄。中信股份并没有出售非上市业务以实现更高价值的计划。而且由于非上市业务主要是影子金融、铁矿石和建筑业务，无论如何都难以增强投资者信心。<BR><BR>集团整体表现也不尽人意。中信62%的收入来自于金融、资源和房地产，这些都是处于中国经济下滑风暴眼的行业。中信集团去年整体收入下滑2%，而且由于澳大利亚铁矿石项目计入18亿美元减值，去年利润进一步下降。<BR><BR>诚然，去年中信的金融服务业务表现可圈可点，部分原因是股市大涨为中信证券带来了更多经纪业务收入。但这并非稳定的动力。而且中国近期不仅采取了降息措施，还上调了存款利率浮动区间，也就是说中信银行的贷款利率将下降，而存款利率可能不变，意味著利润率将受到挤压。<BR> <BR>中信深知集团表现受周期性影响很大。因此最近的投资主要面向消费领域，比如去年与KKR达成的水处理协议，以及本周宣布的合建主题公园项目等。中信还引入新的战略股东，理论上说新战略股东可以引领公司进入新的行业领域。今年1月，中信宣布将20%的股份出售给泰国卜蜂集团(Charoen Pokphand Group)和日本伊藤忠商事株式会社(Itochu Co.)。<BR><BR>不过这些新投资的规模都很小。尽管中信周二表示将寻求更多战略投资者，但在一个国有背景的庞大企业中，外部人士能做的也只有这麽多。<BR><BR>倘若中信现在宣布有另一位重磅投资者以较高的估值入股，那麽公司股价可能上涨。但这也只是权宜之计。长期来看，该集团的价值还是难以突破重重限制而释放出来。<BR><BR>By Abheek Bhattacharya<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

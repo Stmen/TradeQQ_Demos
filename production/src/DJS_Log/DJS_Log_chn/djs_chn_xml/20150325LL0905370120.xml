@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>e-20150324DN011488</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 纽约证交所最活跃个股]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>05:34</StoryTime>
+<codes codetype="country"></codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJG,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJMS,N/DJN,N/DJRT,N/DN,N/EWR,N/FXW,N/WED,N/WER,N/DJWI,N/DTA,N/MKT,N/TAB,N/TSY,PAG/4121,S/ACT,S/ALL,P/AEQI,P/AFXI,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR</codes>
+<codes codetype="industry">M/NND,M/TPX</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+<pre><BR>公司                股票代码  成交量      最新价  涨跌    涨跌幅(%)<BR>-------             ------    ------      ----    ------  -------<BR>Bank Of America     BAC       75,333,194  15.61   -0.11   -0.70<BR>Whiting Pete        WLL       57,929,431  30.91   -7.48   -19.48<BR>Chesapeake Energy   CHK       43,222,118  14.26   0.15    1.06<BR>Twitter Inc.        TWTR      37,641,414  51.47   3.01    6.21<BR>Freeport-McMoRan I  FCX       36,059,215  19.18   -0.15   -0.78<BR>Petoleo Brasil ADS  PBR       32,176,690  5.88    0.05    0.86<BR>Alcoa               AA        32,053,563  13.09   0.09    0.69<BR>Pfizer              PFE       31,852,663  34.52   -0.53   -1.51<BR>General Electric    GE        25,036,148  25.27   -0.20   -0.79<BR>Rite Aid            RAD       22,518,966  8.21    0.07    0.86<BR>AT&amp;T                T         19,771,088  33.07   -0.21   -0.63<BR>Chimera Inv         CIM       18,423,652  3.24    0.00    0.00<BR>Vale S.A.           VALE      18,322,421  6.29    -0.24   -3.68<BR>Avon Products       AVP       17,655,962  8.25    0.30    3.77<BR>Regions Fincl       RF        16,527,231  9.43    -0.12   -1.26<BR>Ford Motor          F         16,303,260  16.56   -0.01   -0.06<BR>Nokia               NOK       16,037,758  7.95    0.07    0.89<BR>EMC Corp            EMC       15,881,485  25.81   -0.44   -1.68<BR>Brixmor Property G  BRX       15,836,954  26.37   -0.01   -0.04<BR>Oasis Petroleum     OAS       15,797,353  13.21   0.54    4.26<BR></pre><BR>来源： WSJ Market Data Group<BR><BR>（道琼斯）--<BR>-0-<BR>版权所有(c)2013道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

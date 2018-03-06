@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN007466</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ Ally任命公司内部人士Diane Morais为银行部门总裁&gt;ALLY]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>00:19</StoryTime>
+<codes codetype="country">R/MI,R/NME,R/US,R/USC</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/TICKER,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIB,N/DJIV,N/DJN,N/DJPT,N/DJRT,N/DN,N/EWR,N/FXW,N/WED,N/WER,N/WSJC,N/CAC,N/CNW,N/COF,N/DJPN,N/DJWI,N/ENTR,N/FCTV,N/MNT,N/PER,N/TSY,M/FCL,M/NND,P/ABO,P/AEQI,P/AFXI,P/CMR,P/DJCB,P/METH,P/NAE,P/PSH,P/RCC,P/RWD,P/SGN,P/WMMI,T/CFW,N/CFW,T/TKR,N/TIKR</codes>
+<codes codetype="industry">I/BAN,I/BNK,I/FIS,I/XNYA,I/XRUS</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">ALLY,US02005N1000</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+Ally Financial Inc.任命公司内部人士Diane Morais担任其银行部门总裁，因该汽车贷款商的新首席执行长希望扩展零售银行业务。<BR><BR>首席执行长Jeffrey J. Brown在周二公布的一份新闻稿中称，Morais的经验将有助于该银行发展其强项，因网络银行平台正在成为该公司越来越重要的部门。<BR><BR>Morais之前曾负责Ally Bank的存款和业务整合工作。她于2008年加入Ally，时任存款与产品创新总裁，并为Ally Bank的创始团队成员之一。她的工作范围在2010年得到扩展，包括负责银行存款业务。在加入Ally之前，Morais曾于美国银行(Bank of America Corp.，BAC)任职12年，担任过许多资深领导职务。<BR><BR>Write to Tess Stynes at tess.stynes@wsj.com <BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

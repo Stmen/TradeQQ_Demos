@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>20150325LLO074301537</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 市场快讯∶英镑/美元波动区间料将下移]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>08:05</StoryTime>
+<codes codetype="country">R/UK,R/ASI,R/US,N/ALMT,N/DJMT</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/CFW,O/DJI,N/BKG,N/CMR,N/EWR,N/FXW,N/DJMT,N/WER,N/UKMR,N/MSM,N/CBK,N/DJMB,N/DJTA,N/FRX,N/FXMT,N/ALMT,P/RCC,A/5015,PAG/1085,PAG/1012,PAG/75112,T/CFW,N/CFW,T/CFF,N/CFF</codes>
+<codes codetype="industry">M/GBP,M/USD,I/GBPUS,N/ALMT,N/DJMT</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+香港时间0741（道琼斯）--英镑/美元波动区间料将下移。英国2月CPI升幅不及预期令英镑人气受抑。美元人气升温、投资者风险偏好降温以及欧元/英镑交叉盘走高引发的英镑抛售也令英镑/美元承压。日线图指标指向不一，其中随机指标看涨，但MACD看跌。支撑位看1.4832美元（今晨低点）；跌破後下看1.4720美元（上周五低点），之後分别看1.4685美元（上周四低点）、1.4632美元（3月18日触及的近五年低点）、1.4344美元（2010年6月8日低点）、1.4230美元（2010年5月20日低点）和心理位1.4000美元一线。阻力位看1.4983-1.4988美元（周二高点-周一高点），之後看1.5008美元（上周四高点）；突破後目标上看1.5147美元（3月18日高点，接近55日移动均线），之後分别看1.5255美元（3月6日高点）和1.5397美元（3月3日高点）。<BR><BR>-0-<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

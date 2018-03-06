@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20150324DN010826</uniqueid>
+<ChainHistory></ChainHistory>
+<title>
+<![CDATA[DJ 美国股市收跌，交易淡静]]>
+</title>
+<StoryDate>2015-03-25</StoryDate>
+<StoryTime>05:00</StoryTime>
+<codes codetype="country">R/CA,R/CO,R/MD,R/MI,R/NME,R/NY,R/PA,R/PRM,R/US,R/USC,R/USE,R/USW</codes>
+<codes codetype="subject">L/CH,L/SIMP,L/STORY,L/CH,L/SIMP,J/CFF,J/TICKER,J/COS,J/CFW,J/TKR,N/CLSNEW,N/BKG,N/CMDI,N/CMR,N/DJAG,N/DJAN,N/DJCS,N/DJEN,N/DJG,N/DJG7,N/DJGP,N/DJGV,N/DJI,N/DJIV,N/DJMB,N/DJN,N/DJOS,N/DJPF,N/DJPT,N/DJRT,N/DN,N/DOI,N/ECR,N/EWR,N/FXW,N/IPR,N/MADN,N/NRG,N/OSAG,N/OSCM,N/OSFF,N/OSME,N/OSTR,N/WED,N/WER,N/CNW,N/DJPN,N/DJWI,N/ENTR,N/FXTR,N/GENI,N/HIY,N/IEN,PAG/1106,PAG/4116,M/BSC,M/CSL,M/ENE,M/FCL,M/NCY,M/NND,M/TPX,P/ACMD,P/AENE,P/AEQI,P/AFXB,P/AFXI,P/AFXP,P/DJCS,P/EIE,P/EQE,P/EWR,P/FXEQ,P/MAAD,P/MAST,P/METH,P/NAE,P/NRG,P/RCC,P/WMAI,P/WMM,T/CFW,N/CFW,T/COS,N/CONS,T/TKR,N/TIKR,T/CFF,N/CFF</codes>
+<codes codetype="industry">I/CHC,I/CHM,I/FIS,I/FOD,I/OFP,I/OIS,I/SCR,I/XCET,I/XDJGI,I/XDJLC,I/XFFX,I/XGDW,I/XISL,I/XNYA,I/XRUS,I/XSLI,I/XSP1,I/XSP5</codes>
+<codes codetype="page"></codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company">DOW,LINE,MKC,NDAQ,WBM.XX,WLL,US2605431038,US5360201009,US5797802064,US6311031081,US9663871021</codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext><![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<p></p>
+美国股市周二收低，结束淡静的交易日，因最近一波将股市推上历史高点的动力减弱。<BR><BR>道琼斯指数下跌104.9点，收18011.14点，跌幅0.6%。标普500指数下跌12.92点，收2091.5点，跌幅0.6%。纳斯达克综合指数下跌16.25点，收4994.73点，跌幅0.3%。<BR><BR>- -<BR><BR>版权所有(c)2015道琼斯公司
+<p></p>
+<p></p>
+</FONT>]]>
+</fulltext>
+</DJStory>
+</root>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE doc SYSTEM "djnml-1.0b.dtd">
+<doc msize="000005578" md5="42c678340522daa54bba8f4442627fd5" sysId="sbknwsarchp01" destination="AW" distId="    " transmission-date="                " >
+<djnml publisher="DJN" docdate="20150313" product="DN" seq="210" xml:lang="en-us" >
+<head>
+<copyright year="2015" holder="Dow Jones &amp; Company, Inc." ></copyright>
+<docdata>
+<djn>
+<djn-newswires news-source="DJDN" origin="DJ" service-id="CO" >
+<djn-press-cutout/>
+<djn-urgency>0</djn-urgency>
+<djn-mdata brand="DJ" temp-perm="T" retention="N" hot="N" original-source="FW" accession-number="20150313000210" page-citation="" display-date="20150313T045015.510Z" >
+<djn-coding>
+<djn-page>
+<c>1087</c>
+<c>4046</c>
+</djn-page>
+<djn-subject>
+<c>N/BKG</c>
+<c>N/CMDI</c>
+<c>N/CMR</c>
+<c>N/DJAE</c>
+<c>N/DJCS</c>
+<c>N/DJG</c>
+<c>N/DJGP</c>
+<c>N/DJGS</c>
+<c>N/DJGV</c>
+<c>N/DJI</c>
+<c>N/DJIB</c>
+<c>N/DJIR</c>
+<c>N/DJIV</c>
+<c>N/DJMS</c>
+<c>N/DJN</c>
+<c>N/DJOS</c>
+<c>N/DJQB</c>
+<c>N/DJRT</c>
+<c>N/DN</c>
+<c>N/EMR</c>
+<c>N/EWR</c>
+<c>N/FNVW</c>
+<c>N/FXW</c>
+<c>N/MADN</c>
+<c>N/OSAG</c>
+<c>N/OSCM</c>
+<c>N/OSEN</c>
+<c>N/OSFR</c>
+<c>N/OSME</c>
+<c>N/OSTR</c>
+<c>N/WED</c>
+<c>N/WER</c>
+<c>N/DJFN</c>
+<c>N/DJWI</c>
+<c>N/FRX</c>
+<c>N/MFO</c>
+<c>N/MKT</c>
+<c>N/TAB</c>
+<c>N/TSY</c>
+</djn-subject>
+<djn-market>
+<c>M/AUD</c>
+<c>M/CAD</c>
+<c>M/CHF</c>
+<c>M/EUR</c>
+<c>M/GBP</c>
+<c>M/JPY</c>
+<c>M/NND</c>
+<c>M/TPX</c>
+<c>M/USD</c>
+</djn-market>
+<djn-product>
+<c>P/ACMD</c>
+<c>P/AEQI</c>
+<c>P/BFX</c>
+<c>P/EMG</c>
+<c>P/FNVW</c>
+<c>P/MAAD</c>
+<c>P/PSH</c>
+<c>P/WMMI</c>
+</djn-product>
+<djn-stat>
+<c>S/ALL</c>
+<c>S/FXH</c>
+</djn-stat>
+</djn-coding>
+</djn-mdata>
+</djn-newswires>
+</djn>
+</docdata>
+</head>
+<body>
+<headline brand-display="DJ" >
+Interbank Foreign Exchange Rates At 00:50 EST / 0450 GMT</headline>
+<text>
+<pre>
+ 
+                           Latest       Previous   %Chg    Daily    Daily   %Chg 
+Dollar Rates                               Close            High      Low  12/31 
+ 
+USD/JPY Japan           121.50-51      121.28-29  +0.18   121.55   121.26  +1.49 
+EUR/USD Euro            1.0603-06      1.0635-38  -0.30   1.0637   1.0602 -12.35 
+GBP/USD U.K.            1.4863-68      1.4881-86  -0.12   1.4899   1.4862  -4.58 
+USD/CHF Switzerland     1.0050-54      1.0019-23  +0.31   1.0054   1.0022  +1.10 
+USD/CAD Canada          1.2720-25      1.2684-89  +0.28   1.2728   1.2683  +9.47 
+AUD/USD Australia       0.7673-77      0.7705-09  -0.42   0.7711   0.7669  -6.07 
+NZD/USD New Zealand     0.7366-72      0.7383-89  -0.23   0.7409   0.7364  -5.47 
+ 
+Euro Rates 
+ 
+EUR/JPY Japan           128.84-88      128.98-09  -0.11   128.99   128.74 -11.09 
+EUR/GBP U.K.            0.7133-36      0.7146-49  -0.18   0.7149   0.7130  -8.13 
+EUR/CHF Switzerland     1.0661-64      1.0660-63  +0.01   1.0669   1.0645 -11.37 
+EUR/CAD Canada          1.3486-96      1.3488-98  -0.01   1.3498   1.3475  -4.04 
+EUR/AUD Australia       1.3814-24     1.3794-804  +0.14   1.3827   1.3764  -6.67 
+EUR/DKK Denmark         7.4574-81      7.4574-81   0.00   7.4596   7.4565  +0.14 
+EUR/NOK Norway         8.6174-224      8.6137-87  +0.04   8.6271   8.6080  -4.39 
+EUR/SEK Sweden         9.1234-334     9.1287-387  -0.06   9.1406   9.1225  -3.34 
+EUR/CZK Czech Rep.     27.285-345     27.277-337  +0.03   27.328   27.304  -1.25 
+EUR/HUF Hungary       303.69-4.21    303.78-4.30  -0.03   304.16   303.51  -3.95 
+EUR/PLN Poland          4.1466-84      4.1408-26  +0.14   4.1491   4.1399  -3.24 
+ 
+Yen Rates 
+ 
+AUD/JPY Australia        93.23-27       93.47-51  -0.26    93.56    93.21  -4.67 
+GBP/JPY U.K.            180.58-64      180.46-52  +0.07   180.74   180.42  -3.16 
+CAD/JPY Canada           95.49-54       95.58-63  -0.10    95.64    95.47  -7.25 
+NZD/JPY New Zealand      89.51-55       89.59-63  -0.09    89.88    89.49  -4.07 
+ 
+Other Dollar Rates 
+ 
+USD/CZK Czech Rep.      25.730-80     25.650-700  +0.31   25.768   25.676 +12.65 
+USD/HUF Hungary         286.40-80      285.67-06  +0.26   286.77   285.69  +9.54 
+USD/DKK Denmark         7.0317-27      7.0117-27  +0.29   7.0348   7.0123 +14.24 
+USD/NOK Norway         8.1252-312    8.0989-1049  +0.32   8.1332   8.0993  +9.08 
+USD/PLZ Poland          3.9105-10      3.8940-45  +0.42   3.9119   3.8944 +10.39 
+USD/RUB Russia          61.114-74      61.306-66  -0.31   61.412   60.805  +0.99 
+USD/SEK Sweden         8.6028-118     8.5837-927  +0.22   8.6131   8.5876 +10.23 
+USD/ZAR S. Africa    12.2885-3185   12.2838-3138  +0.04  12.3056  12.2626  +6.46 
+ 
+USD/CNY China           6.2570-90      6.2642-62  -0.11   6.2677   6.2568  +0.85 
+USD/HKD Hong Kong       7.7644-49      7.7693-98  -0.06   7.7698   7.7637  +0.12 
+USD/MYR Malaysia        3.6927-77      3.6902-52  +0.07   3.7014   3.6874  +5.44 
+USD/INR India           62.600-10      62.532-52  +0.10   62.605   62.455  -0.68 
+USD/IDR Indonesia        13201-11      13190-200  +0.08    13233    13177  +6.27 
+USD/PHP Philippines     44.275-80      44.240-50  +0.07   44.288   44.235  -1.00 
+USD/SGD Singapore       1.3858-68      1.3812-22  +0.33   1.3864   1.3804  +4.60 
+USD/KRW S. Korea     1126.53-8.53   1124.64-6.64  +0.17  1128.06  1121.24  +3.07 
+USD/TWD Taiwan          31.605-11      31.600-06  +0.01   31.612   31.536  -0.12 
+USD/THB Thailand        32.850-70      32.830-50  +0.06   32.870   32.770  -0.15 
+USD/VND Vietnam         21377-477      21290-390  +0.41    21427    21340  +0.20 
+ 
+USD/BRR Brazil          3.1705-35      3.1647-77  +0.18   3.1748   3.1659 +19.36 
+USD/MXN Mexico        15.4297-597   15.3748-4048  +0.36  15.4483  15.3786  +4.75 
+USD/ARS Argentina      8.7763-803      8.7757-97  +0.01   8.7806   8.7750  +3.71 
+ 
+Source: Tullett Prebon 
+ </pre>
+<p>
+  (END) Dow Jones Newswires</p>
+<p>
+  March 13, 2015 00:50 ET (04:50 GMT)</p>
+</text>
+</body>
+</djnml>
+</doc>
